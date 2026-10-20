@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 11.03a Constructing Two-Way Frequency Tables</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 11</div>
+        <div style="font-size: 13px; color: #666;">Statistical Data</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">11.03a</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Statistical Data</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">11.03a</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Constructing Two-Way Frequency Tables</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong data-start="232" data-end="247">Association</strong>: A relationship between two variables that suggests a pattern or connection.</p>
+<p><strong data-start="327" data-end="357">Bivariate Categorical Data</strong>: Data that involves two categorical variables, each with two or more categories.</p>
+<p><strong data-start="441" data-end="460">Column Marginal</strong>: The total frequency for each column in a two-way table, found at the bottom of each column.</p>
+<p><strong data-start="556" data-end="569">Frequency</strong>: The number of times a category or pair of categories appears in a data set.</p>
+<p><strong data-start="649" data-end="670">Joint Frequencies</strong>: The values inside the table that represent the frequency for a specific combination of two categories.</p>
+<p><strong data-start="777" data-end="801">Marginal Frequencies</strong>: The totals of each row or column that represent the sum of joint frequencies along the edges of the table.</p>
+<p><strong data-start="912" data-end="927">Percentages</strong>: A value expressed out of 100 that shows how large one quantity is compared to another.</p>
+<p><strong data-start="1018" data-end="1032">Population</strong>: The complete group of individuals or items being studied in a survey or experiment.</p>
+<p><strong data-start="1120" data-end="1135">Probability</strong>: A number between 0 and 1 that expresses the likelihood of an event occurring.</p>
+<p><strong data-start="1217" data-end="1239">Relative Frequency</strong>: The ratio of a frequency to the total number of observations.</p>
+<p><strong data-start="1305" data-end="1321">Row Marginal</strong>: The total frequency for each row in a two-way table, found at the far right of each row.</p>
+<p><strong data-start="1414" data-end="1433">Total Frequency</strong>: The grand total of all data entries, typically found in the bottom-right cell of a two-way table.</p>
+<p><strong data-start="1535" data-end="1562">Two-Way Frequency Table</strong>: A table that displays frequencies for two categorical variables, allowing you to examine relationships between them.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p class="" data-start="1773" data-end="2224">In today’s lesson, we will explore how to organize and interpret <strong data-start="1838" data-end="1868">bivariate categorical data</strong> using a <strong data-start="1877" data-end="1904">two-way frequency table</strong>. These tables allow us to compare two different categories—like favorite social media platforms and gender—by organizing frequencies into rows and columns. When surveys or polls collect data on two different questions or characteristics, a two-way table helps us summarize the results and spot patterns or associations.</p>
+<p class="" data-start="2226" data-end="2603">We will learn how to construct a complete two-way frequency table from a few given values such as the total population, row and column totals, and specific cell frequencies. Understanding how to use the structure of the table to fill in missing values is a key skill in data analysis and lays the groundwork for calculating relative frequencies later in more advanced settings.</p>
+<h4 data-start="2610" data-end="2652"><span style="color: #843fa1;"><strong data-start="2614" data-end="2652"><br>What is a Two-Way Frequency Table?</strong></span></h4>
+<p class="" data-start="2654" data-end="3027">A two-way frequency table is a table that displays the frequencies of combinations of two categorical variables.</p>
+<ul>
+<li data-start="2654" data-end="3027">For example, in a survey where people are asked both their <strong data-start="2826" data-end="2836">gender</strong> and their <strong data-start="2847" data-end="2881">favorite social media platform</strong>, each response falls into one of the combined categories (e.g., Male–Instagram, Female–TikTok). The table helps organize these responses clearly.</li>
+</ul>
+<p class="" data-start="3029" data-end="3224">Each cell inside the table represents a <span style="color: #2dc26b;"><strong data-start="3069" data-end="3088">joint frequency</strong></span>. The row and column totals represent <span style="color: #3598db;"><strong data-start="3126" data-end="3150">marginal frequencies</strong></span>, and the total number of all responses is called the <strong data-start="3204" data-end="3223">total frequency</strong>.</p>
+<table style="border-collapse: collapse; width: 53.9597%; height: 81px;" border="1">
+<tbody>
+<tr>
+<td style="width: 28.5181%;"></td>
+<td style="width: 23.2877%;">Category 1</td>
+<td style="width: 23.6662%;">Category 2</td>
+<td style="width: 24.4035%;">Row Totals</td>
+</tr>
+<tr>
+<td style="width: 28.5181%;">Population 1</td>
+<td style="width: 23.2877%;"><span style="color: #2dc26b;">Pop 1 in Cat 1 Total Freq</span></td>
+<td style="width: 23.6662%;"><span style="color: #2dc26b;">Pop 1 in Cat 2 Total Freq</span></td>
+<td style="width: 24.4035%;"><span style="color: #3598db;">Pop 1 Total</span></td>
+</tr>
+<tr>
+<td style="width: 28.5181%;">Population 2</td>
+<td style="width: 23.2877%;"><span style="color: #2dc26b;">Pop 2 in Cat 1 Total Freq</span></td>
+<td style="width: 23.6662%;"><span style="color: #2dc26b;">Pop 2 in Cat 2 Total Freq</span></td>
+<td style="width: 24.4035%;"><span style="color: #3598db;">Pop 2 Total</span></td>
+</tr>
+<tr>
+<td style="width: 28.5181%;">Column Totals</td>
+<td style="width: 23.2877%;"><span style="color: #3598db;">Cat 1 Total</span></td>
+<td style="width: 23.6662%;"><span style="color: #3598db;">Cat 2 Total</span></td>
+<td style="width: 24.4035%;">Total Population Surveyed</td>
+</tr>
+</tbody>
+</table>
+<h4 data-start="3029" data-end="3224"><br><br><span style="color: #e67e23;">Example 1</span></h4>
+<p class="" data-start="3249" data-end="3497">A survey was conducted among <strong data-start="3278" data-end="3294">280 students</strong> to find out their preferred type of school lunch and their grade level. Students were asked to choose between “Hot Lunch” and “Cold Lunch,” and to indicate whether they were in <strong data-start="3472" data-end="3479">6th</strong> or <strong data-start="3483" data-end="3496">7th grade</strong>.</p>
+<ul data-start="3499" data-end="3677">
+<li class="" data-start="3499" data-end="3602">
+<p class="" data-start="3501" data-end="3602">The survey found that <strong data-start="3523" data-end="3555">95 students prefer Hot Lunch</strong>, and <strong data-start="3561" data-end="3601">120 of the students are in 7th grade</strong>.</p>
+</li>
+<li class="" data-start="3603" data-end="3677">
+<p class="" data-start="3605" data-end="3677">The survey also showed that <strong data-start="3633" data-end="3676">50 of the 7th graders prefer Cold Lunch</strong>.</p>
+</li>
+</ul>
+<p class="" data-start="3679" data-end="3751"><strong data-start="3679" data-end="3687">Task</strong>:<br data-start="3688" data-end="3691">Use the information to complete the two-way frequency table.</p>
+<p class="" data-start="3679" data-end="3751"><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li data-start="3679" data-end="3751">We can begin by filling in the Total Population Surveyed in the very last bottom cell of the chart. We will also fill in the categories and populations in the header columns and rows.</li>
+<li data-start="3679" data-end="3751">
+<table style="border-collapse: collapse; width: 54.6075%; height: 78px;" border="1">
+<tbody>
+<tr>
+<td style="width: 25%;"></td>
+<td style="width: 25%;">Hot Lunch</td>
+<td style="width: 25%;">Cold Lunch</td>
+<td style="width: 25%;">Total</td>
+</tr>
+<tr>
+<td style="width: 25%;">6th Grade</td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+</tr>
+<tr>
+<td style="width: 25%;">8th Grade</td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+</tr>
+<tr>
+<td style="width: 25%;">Total</td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;">280 students</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li data-start="3679" data-end="3751">Now we can use the information given in the bullets of some specific totals to fill in a few cells.</li>
+<li data-start="3679" data-end="3751">
+<table style="border-collapse: collapse; width: 54.5392%; height: 117px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;">Hot Lunch</td>
+<td style="width: 25%; height: 29px;">Cold Lunch</td>
+<td style="width: 25%; height: 29px;">Total</td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;">6th Grade</td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;"></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 25%; height: 30px;">7th Grade</td>
+<td style="width: 25%; height: 30px;"></td>
+<td style="width: 25%; height: 30px;"><span style="color: #e03e2d;"><strong>50</strong></span></td>
+<td style="width: 25%; height: 30px;"><span style="color: #e03e2d;"><strong>120</strong></span></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;">Total</td>
+<td style="width: 25%; height: 29px;"><span style="color: #e03e2d;"><strong>95</strong></span></td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;">280 students</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li data-start="3679" data-end="3751">Now we will use the numbers we do know and the totals we know to fill in the other cells.</li>
+<li data-start="3679" data-end="3751">We can first fill in the total for 6th graders. We know there are 120 total 7th graders and 280 total students.
+<ul>
+<li data-start="3679" data-end="3751">Total 6th graders \(=280-120=160\)</li>
+</ul>
+</li>
+<li data-start="3679" data-end="3751">Next, we can find how many total students prefer cold lunches.
+<ul>
+<li data-start="3679" data-end="3751">Total cold lunches \(=280-95=185\)</li>
+</ul>
+</li>
+<li data-start="3679" data-end="3751">We can fill in those totals to give us a better picture of the table and what is left to find.</li>
+<li data-start="3679" data-end="3751">
+<table style="border-collapse: collapse; width: 55.0171%; height: 116px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;">Hot Lunch</td>
+<td style="width: 25%; height: 29px;">Cold Lunch</td>
+<td style="width: 25%; height: 29px;">Total</td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;">6th Grade</td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;"><span style="color: #3598db;"><strong>160</strong></span></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;">7th Grade</td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;"><strong><span style="color: #169179;">50</span></strong></td>
+<td style="width: 25%; height: 29px;"><span style="color: #3598db;"><strong>120</strong></span></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;">Total</td>
+<td style="width: 25%; height: 29px;"><span style="color: #3598db;"><strong>95</strong></span></td>
+<td style="width: 25%; height: 29px;"><span style="color: #3598db;"><strong>185</strong></span></td>
+<td style="width: 25%; height: 29px;"><span style="color: #000000;"><strong>280</strong></span></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li data-start="3679" data-end="3751">Now, we can use the totals to find the remaining cells.</li>
+<li data-start="3679" data-end="3751">We know 50 7th graders prefer a cold lunch and there are 120 total 7th graders.
+<ul>
+<li data-start="3679" data-end="3751">7th graders who prefer hot lunch \(=120-50=70\)</li>
+</ul>
+</li>
+<li data-start="3679" data-end="3751">We also know that 185 students prefer cold lunches and 50 are 7th graders.
+<ul>
+<li data-start="3679" data-end="3751">6th graders who prefer cold lunch \(=185-50=135\)</li>
+</ul>
+</li>
+<li data-start="3679" data-end="3751">Last, we can find how many 6th graders prefer hot lunch since there are 160 total 6th graders.
+<ul>
+<li data-start="3679" data-end="3751">6th graders who prefer hot lunch \(=160-135=25\)</li>
+</ul>
+</li>
+</ul>
+<table style="border-collapse: collapse; width: 59.396%; height: 28px;" border="1">
+<tbody>
+<tr>
+<td style="width: 24.9832%;"></td>
+<td style="width: 24.9832%;">Hot Lunch</td>
+<td style="width: 24.9832%;">Cold Lunch</td>
+<td style="width: 24.9832%;">Total</td>
+</tr>
+<tr>
+<td style="width: 24.9832%;">6th Grade</td>
+<td style="width: 24.9832%;"><strong><span style="color: #2dc26b;">25</span></strong></td>
+<td style="width: 24.9832%;"><strong><span style="color: #2dc26b;">135</span></strong></td>
+<td style="width: 24.9832%;"><span style="color: #3598db;">160</span></td>
+</tr>
+<tr>
+<td style="width: 24.9832%;">7th Grade</td>
+<td style="width: 24.9832%;"><strong><span style="color: #2dc26b;">70</span></strong></td>
+<td style="width: 24.9832%;"><strong><span style="color: #2dc26b;">50</span></strong></td>
+<td style="width: 24.9832%;"><span style="color: #3598db;">120</span></td>
+</tr>
+<tr>
+<td style="width: 24.9832%;">Total</td>
+<td style="width: 24.9832%;"><span style="color: #3598db;">95</span></td>
+<td style="width: 24.9832%;"><span style="color: #3598db;">185</span></td>
+<td style="width: 24.9832%;"><span style="color: #3598db;">280</span></td>
+</tr>
+</tbody>
+</table>
+<p>The values in green are the joint frequencies and the values in blue are the marginal frequencies. Understanding these values will help us in the next lesson with finding joint and marginal relative frequencies.</p>
+<h4><br><br><span style="color: #e67e23;">Example 2</span></h4>
+<p class="" data-start="4054" data-end="4239">A poll was conducted among <strong data-start="4081" data-end="4095">350 adults</strong> about their preferred vacation type and whether they live in an urban or rural area. Vacation types were categorized as “Beach” or “Mountains.”</p>
+<ul data-start="4241" data-end="4430">
+<li class="" data-start="4241" data-end="4343">
+<p class="" data-start="4243" data-end="4343">The survey found that <strong data-start="4265" data-end="4299">198 people live in urban areas</strong>, and <strong data-start="4305" data-end="4342">143 people prefer Beach vacations</strong>.</p>
+</li>
+<li class="" data-start="4344" data-end="4430">
+<p class="" data-start="4346" data-end="4430">The survey also showed that <strong data-start="4374" data-end="4429">90 of the rural residents prefer Mountain vacations</strong>.</p>
+</li>
+</ul>
+<p class="" data-start="4432" data-end="4504"><strong data-start="4432" data-end="4440">Task</strong>:<br data-start="4441" data-end="4444">Use the information to complete the two-way frequency table.</p>
+<p class="" data-start="3679" data-end="3751"><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li data-start="3679" data-end="3751">We can begin by filling in the Total Population Surveyed in the very last bottom cell of the chart. We will also fill in the categories and populations in the header columns and rows.</li>
+<li data-start="3679" data-end="3751">
+<table style="border-collapse: collapse; width: 54.6075%; height: 78px;" border="1">
+<tbody>
+<tr>
+<td style="width: 25%;"></td>
+<td style="width: 25%;">Beach</td>
+<td style="width: 25%;">Mountains</td>
+<td style="width: 25%;">Total</td>
+</tr>
+<tr>
+<td style="width: 25%;">Urban Area</td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+</tr>
+<tr>
+<td style="width: 25%;">Rural Area</td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+</tr>
+<tr>
+<td style="width: 25%;">Total</td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"></td>
+<td style="width: 25%;"><strong>350 adults</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li data-start="3679" data-end="3751">Now we can use the information given in the bullets of some specific totals to fill in a few cells.</li>
+<li data-start="3679" data-end="3751">
+<table style="border-collapse: collapse; width: 54.5392%; height: 117px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 24.9378%;"></td>
+<td style="width: 24.9378%;">Beach</td>
+<td style="width: 24.9378%;">Mountains</td>
+<td style="width: 25.0631%;">Total</td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9378%;">Urban Area</td>
+<td style="width: 24.9378%;"></td>
+<td style="width: 24.9378%;"></td>
+<td style="width: 25.0631%;"><span style="color: #e03e2d;">198</span></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 24.9378%;">Rural Area</td>
+<td style="width: 24.9378%;"></td>
+<td style="width: 24.9378%;"><span style="color: #e03e2d;">90</span></td>
+<td style="width: 25.0631%;"></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9378%;">Total</td>
+<td style="width: 24.9378%;"><span style="color: #e03e2d;">143</span></td>
+<td style="width: 24.9378%;"></td>
+<td style="width: 25.0631%;"><strong>350 adults</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li data-start="3679" data-end="3751">Now we will use the numbers we do know and the totals we know to fill in the other cells.</li>
+<li data-start="3679" data-end="3751">We can first fill in the total for rural area adults. We know there are 198 urban area adults and 350 total adults.
+<ul>
+<li data-start="3679" data-end="3751">Total rural area adults \(=350-198=152\)</li>
+</ul>
+</li>
+<li data-start="3679" data-end="3751">Next, we can find how many total adults prefer vacations in mountains.
+<ul>
+<li data-start="3679" data-end="3751">Total who prefer mountains \(=350-143=207\)</li>
+</ul>
+</li>
+<li data-start="3679" data-end="3751">We can fill in those totals to give us a better picture of the table and what is left to find.</li>
+<li data-start="3679" data-end="3751">
+<table style="border-collapse: collapse; width: 55.0171%; height: 116px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 24.9689%;"></td>
+<td style="width: 24.9689%;">Beach</td>
+<td style="width: 24.9689%;">Mountains</td>
+<td style="width: 25.0932%;">Total</td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9689%;">Urban Area</td>
+<td style="width: 24.9689%;"></td>
+<td style="width: 24.9689%;"></td>
+<td style="width: 25.0932%;"><span style="color: #3598db;">198</span></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9689%;">Rural Area</td>
+<td style="width: 24.9689%;"></td>
+<td style="width: 24.9689%;"><span style="color: #e03e2d;">90</span></td>
+<td style="width: 25.0932%;"><span style="color: #3598db;">152</span></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9689%;">Total</td>
+<td style="width: 24.9689%;"><span style="color: #3598db;">143</span></td>
+<td style="width: 24.9689%;"><span style="color: #3598db;">207</span></td>
+<td style="width: 25.0932%;"><strong>350 adults</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li data-start="3679" data-end="3751">Now, we can use the totals to find the remaining cells.</li>
+<li data-start="3679" data-end="3751">We know 90 adults in rural areas prefer a mountain vacation. We can find how many prefer a beach since there are 152 total adults in rural areas.
+<ul>
+<li data-start="3679" data-end="3751">Adults in rural areas who prefer beach vacay \(=152-90=62\)</li>
+</ul>
+</li>
+<li data-start="3679" data-end="3751">We also know that 207 adults prefer mountains on vacation and 90 live in rural areas.
+<ul>
+<li data-start="3679" data-end="3751">Adults who prefer mountains that live in urban areas \(=207-90=117\)</li>
+</ul>
+</li>
+<li data-start="3679" data-end="3751">Last, we can find how many adults live in urban areas and prefer beach vacations.
+<ul>
+<li data-start="3679" data-end="3751">Adults in urban areas who prefer beach vacations \(=198-117=81\)</li>
+</ul>
+</li>
+</ul>
+<table style="border-collapse: collapse; width: 59.396%; height: 28px;" border="1">
+<tbody>
+<tr>
+<td style="width: 25%;"></td>
+<td style="width: 25%;">Beach</td>
+<td style="width: 25%;">Mountains</td>
+<td style="width: 25.1131%;">Total</td>
+</tr>
+<tr>
+<td style="width: 25%;">Urban Area</td>
+<td style="width: 25%;"><span style="color: #2dc26b;">81</span></td>
+<td style="width: 25%;"><span style="color: #2dc26b;">117</span></td>
+<td style="width: 25.1131%;"><span style="color: #3598db;">198</span></td>
+</tr>
+<tr>
+<td style="width: 25%;">Rural Area</td>
+<td style="width: 25%;"><span style="color: #2dc26b;">62</span></td>
+<td style="width: 25%;"><span style="color: #2dc26b;">90</span></td>
+<td style="width: 25.1131%;"><span style="color: #3598db;">152</span></td>
+</tr>
+<tr>
+<td style="width: 25%;">Total</td>
+<td style="width: 25%;"><span style="color: #3598db;">143</span></td>
+<td style="width: 25%;"><span style="color: #3598db;">207</span></td>
+<td style="width: 25.1131%;"><strong>350 adults</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The values in green are the joint frequencies and the values in blue are the marginal frequencies. Understanding these values will help us in the next lesson with finding joint and marginal relative frequencies.</p>
+<h4 data-start="4750" data-end="4770"><strong data-start="4754" data-end="4768"><br><br>Conclusion</strong></h4>
+<p class="" data-start="4771" data-end="5297">Constructing a two-way frequency table is an essential tool in organizing categorical data. When we break down two variables—such as preferences and groups—into categories and count how often they occur together, we can see trends and patterns more easily. Using information like joint frequencies, marginal totals, and the overall population size allows us to logically fill in the table and interpret survey results accurately. Mastering this skill sets the foundation for deeper statistical understanding in future lessons.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. What is bivariate categorical data, and how can it be organized?</p>
+<p><span style="font-size: 1rem;">2. How does a two-way frequency table help in summarizing categorical data?</span></p>
+<p><span style="font-size: 1rem;">3. What are the steps involved in constructing a two-way frequency table?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">11.03a &middot; Constructing Two-Way Frequency Tables</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 6.03a Solving Quadratic Equations by Factoring</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q3 &middot; Module 6</div>
+        <div style="font-size: 13px; color: #666;">Algebraic Reasoning</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">6.03a</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Algebraic Reasoning</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">6.03a</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Solving Quadratic Equations by Factoring</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong>Coefficient</strong>: A number that multiplies a variable in an algebraic expression. For example, in \(3x\), the coefficient is \(3\).</p>
+<p><strong>Constant Term</strong>: A term in an equation or expression that does not contain a variable. For example, in \(x^2+5x+6\), the constant term is \(6\).</p>
+<p><strong>Difference of Squares</strong>: A special algebraic expression in the form \(a^2-b^2\), which can be factored as \((a+b)(a-b)\).</p>
+<p><strong>Factored Form</strong>: A way of writing an expression as a product of its factors. For example, \(x^2+5x+6\) in factored form is \((x+2)(x+3)\).</p>
+<p><strong>Leading Coefficient</strong>: The coefficient of the term with the highest degree in a polynomial. For example, in \(3x^2+2x+1\), the leading coefficient is \(3\).</p>
+<p><strong>Perfect Square</strong>: A number or expression that can be written as the square of another number or expression. For example, 16 is a perfect square because \(4^2=16\), and \(x^2+6x+9\) is a perfect square because it equals \((x+3)^2\).</p>
+<p><strong>Quadratic Equation</strong>: An equation of the form \(ax^2+bx+c=0\), where \(a\), \(b\), and \(c\)&nbsp;are constants, and \(a\neq 0\).</p>
+<p><strong>Quadratic Formula</strong>: A formula used to find the solutions of a quadratic equation. It is written as <img class="equation_image" title="\Large x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}" src="https://optimadomi.instructure.com/equation_images/%255CLarge%2520x%253D%255Cfrac%257B-b%255Cpm%2520%255Csqrt%257Bb%255E2-4ac%257D%257D%257B2a%257D?scale=1" alt="LaTeX: \Large x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}" data-equation-content="\Large x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}" data-ignore-a11y-check="" loading="lazy"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord"><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-s">​</span></span></span></span></span></span><span class="vlist-s">​</span></span></span></span></span></span></span></span>.</p>
+<p><strong>Solution</strong>: A value or values of a variable that make an equation true. For example, the solutions to \(x^2-4=0\) are \(x=2\) and \(x=-2\).</p>
+<p><strong>Square Root</strong>: A number that, when multiplied by itself, equals the original number. For example, the square root of \(25\) is \(5\).</p>
+<p><strong>Zero Product Property</strong>: A property stating that if the product of two factors is zero, then at least one of the factors must be zero. For example, if \(ab=0\), then either \(a=0\) or \(b=0\).</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p>In today’s lesson, we will explore how to solve quadratic equations using factoring techniques. Factoring is a skill you have already practiced in previous lessons, where you learned how to break down quadratic expressions into products of binomials. Now, we will build on that knowledge and use factoring to solve equations. By the end of this lesson, you will understand how to find the solutions, or "roots," of a quadratic equation by factoring the expression and applying the Zero Product Property. Let's dive in!</p>
+<h4><br><span style="color: #843fa1;"><strong>Key Concepts</strong></span></h4>
+<p>Before we start, remember these important points:</p>
+<ol>
+<li>A <strong>quadratic equation</strong> is any equation in the form \(ax^2+bx+c\), where \(a\), \(b\), and \(c\)&nbsp;are constants, and \(a \neq 0\).</li>
+<li>The <strong>Zero Product Property</strong> states that if \(AB=0\), then either \(A=0\) or \(B=0\).</li>
+<li>To solve a quadratic equation by factoring, you first rewrite the quadratic expression on one side of the equation in factored form, set each factor equal to zero, and solve for \(x\).</li>
+</ol>
+<h4><span style="color: #843fa1;"><strong><br><br>Steps for Solving Quadratic Equations by Factoring</strong></span></h4>
+<ol>
+<li>
+<p><strong>Ensure the equation equals zero</strong>: Make sure all terms are on one side of the equation, with zero on the other side.</p>
+</li>
+<li>
+<p><strong>Factor the quadratic expression</strong>: Break the quadratic expression into a product of two binomials.</p>
+</li>
+<li>
+<p><strong>Apply the Zero Product Property</strong>: Set each factor equal to zero.</p>
+</li>
+<li><strong>Solve for <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span></strong>: Solve each equation to find the roots of the quadratic equation.</li>
+</ol>
+<h4><br><span style="color: #e67e23;">Example 1</span></h4>
+<p>Solve the quadratic equation \(x^2+5x+6=0\).</p>
+<p><span style="color: #e03e2d;">Solution:</span></p>
+<ul>
+<li>Step 1: Ensure the equation equals zero - \(x^2+5x+6=0\)</li>
+<li>Step 2: Factor the quadratic
+<ul>
+<li>Factors of 6 that will combine to make \(5\) are \(2\cdot 3=6\) because \(2+3=5\).</li>
+<li>The factors are \((x+2)(x+3)=0\)</li>
+</ul>
+</li>
+<li>Step 3: Apply the Zero Product Property
+<ul>
+<li>\(x+2=0\)</li>
+<li>\(x+3=0\)</li>
+</ul>
+</li>
+<li>Step 4: Solve each equation for \(x\).
+<ul>
+<li>\(x+2=0\), so <img class="equation_image" title="\textcolor{red}{x=-2}" src="https://optimadomi.instructure.com/equation_images/%255Ctextcolor%257Bred%257D%257Bx%253D-2%257D?scale=1" alt="LaTeX: \textcolor{red}{x=-2}" data-equation-content="\textcolor{red}{x=-2}" data-ignore-a11y-check="" loading="lazy"></li>
+<li>\(x+3=0\), so<span style="color: #e03e2d;"> <img class="equation_image" title="\textcolor{red}{x=-3}" src="https://optimadomi.instructure.com/equation_images/%255Ctextcolor%257Bred%257D%257Bx%253D-3%257D?scale=1" alt="LaTeX: \textcolor{red}{x=-3}" data-equation-content="\textcolor{red}{x=-3}" data-ignore-a11y-check="" loading="lazy"></span></li>
+</ul>
+</li>
+</ul>
+<p>The solutions to the quadratic are \(\{x=-2,x=-3\}\).</p>
+<h4><span style="color: #e67e23;"><br>Example 2</span></h4>
+<p>Solve the quadratic equation \(3x^2-2x-8=0\).</p>
+<p><span style="color: #e03e2d;">Solution:</span></p>
+<ul>
+<li>Step 1: Ensure the equation equals zero - \(3x^2-2x-8=0\)</li>
+<li>Step 2: Factor the quadratic
+<ul>
+<li>Factors of \(3 \cdot -8=-24\) that will combine to make \(-2\) are \(4 \cdot -6=-24\) because \(4+-6=-2\).</li>
+<li>Split the middle term and factor by grouping:
+<ul>
+<li>\(3x^2+6x+4x-8=0\)</li>
+<li>\((3x^2-6x)+(4x-8)=0\)</li>
+<li>\(3x(x-2)+4(x-2)=0\)</li>
+<li>\((3x+4)(x-2)=0\)</li>
+</ul>
+</li>
+<li>The factors are \((3x+4)(x-2)=0\)</li>
+</ul>
+</li>
+<li>Step 3: Apply the Zero Product Property
+<ul>
+<li>\(3x+4=0\)</li>
+<li>\(x-2=0\)</li>
+</ul>
+</li>
+<li>Step 4: Solve each equation for \(x\).
+<ul>
+<li>\(3x+4=0 \implies 3x+4-4=0-4 \implies 3x=-4 \implies \frac{3x}{3}={-4}{3} \implies x=-\frac{4}{3}\)<br><br></li>
+<li>\(x-2=0 \implies x-2+2=0+2 \implies x=2\)</li>
+</ul>
+</li>
+</ul>
+<p>The solutions to the quadratic are \(\{x=-\frac{4}{3}, x=2\}\).</p>
+<h4><span style="color: #e67e23;"><br>Example 3</span></h4>
+<p>Solve the quadratic equation \(2x^2+10x=0\).</p>
+<p><span style="color: #e03e2d;">Solution:</span></p>
+<ul>
+<li>Step 1: Ensure the equation equals zero - \(2x^2+10x=0\)</li>
+<li>Step 2: Factor the quadratic
+<ul>
+<li>This quadratic does not have 3 terms to find factors of a constant that combine to the coefficient of the x term. So, we need to look for a GCF instead.</li>
+<li>You may notice that both terms in the quadratic have the factor 2x in common - \(2x^2+10x=0 \implies 2x(x+5)=0\).</li>
+<li>The factors are \(2x(x+5)=0\).</li>
+</ul>
+</li>
+<li>Step 3: Apply the Zero Product Property
+<ul>
+<li>\(2x=0\)</li>
+<li>\(x+5=0\)</li>
+</ul>
+</li>
+<li>Step 4: Solve each equation for x.
+<ul>
+<li>\(2x=0 \implies \frac{2x}{2}=\frac{0}{2} \implies x=0\)<br><br></li>
+<li>\(x+5=0 \implies x+5-5=0-5 \implies x=-5\)</li>
+</ul>
+</li>
+</ul>
+<p>The solutions to the quadratic are \(\{x=0,x=-5\}\).</p>
+<h4><span style="color: #e67e23;"><br>Example 4</span></h4>
+<p>Solve the quadratic equation \(4x^2+12x=-8\).</p>
+<p><span style="color: #e03e2d;">Solution:</span></p>
+<ul>
+<li>Step 1: Ensure the equation equals zero. For this one, we need to add the \(8\) to both first to get it equal to \(0\).
+<ul>
+<li>\(4x^2+12x=-8 \implies 4x^2+12x+8=-8+8 \implies 4x^2+12x+8=0\)</li>
+</ul>
+</li>
+<li>Step 2: Factor the quadratic
+<ul>
+<li>Before factoring, you might notice that all terms can be divided by 4. We can do this first to simplify the quadratic making factoring easier. \(\frac{4x^2+12x+8}{4}=\frac{0}{4} \implies x^2+3x+2=0\)</li>
+<li>Now, we can work with the simplified quadratic to factor. Factors of 2 that will combine to make 3 are 2 and 1.
+<ul>
+<li>\(2\cdot 1=2\) and \(2+1=3\)</li>
+</ul>
+</li>
+<li>The factors are \((x+2)(x+1)=0\)</li>
+</ul>
+</li>
+<li>Step 3: Apply the Zero Product Property
+<ul>
+<li>\(x+2=0\)</li>
+<li>\(x+1=0\)</li>
+</ul>
+</li>
+<li>Step 4: Solve each equation for \(x\).
+<ul>
+<li>\(x+2=0 \implies x+2-2=0-2 \implies x=-2\)<br><br></li>
+<li>\(x+1=0 \implies x+1-1=0-1 \implies x=-1\)</li>
+</ul>
+</li>
+</ul>
+<p>The solutions to the quadratic are \(\{x=-2,x=-1\}\).</p>
+<h4><span style="color: #e67e23;"><br>Example 5</span></h4>
+<p>Solve the quadratic equation \(2x^2=x+15\).</p>
+<p><span style="color: #e03e2d;">Solution:</span></p>
+<ul>
+<li>Step 1: Ensure the equation equals zero. For this one, we need to subtract \(x\) and subtract 15 to both sides to get it equal to 0. When making it equal 0, it is best to keep the \(x^2\)&nbsp;term positive.
+<ul>
+<li>\(2x^2-x=x-x+15 \implies 2x^2-x=15 \implies 2x^2-x-15=15-15 \implies 2x^2-x-15=0\)</li>
+</ul>
+</li>
+<li>Step 2: Factor the quadratic
+<ul>
+<li>To begin factoring, we need to list out the factors of \(a\cdot c = 2\cdot -15= -30\):</li>
+<li>\(2 \cdot -15=-30\)
+<ul>
+<li>\(-1 \cdot 30\) or \(1 \cdot -30\)</li>
+<li>\(-2\cdot 15\) or \(2 \cdot -15\)</li>
+<li>\(-3 \cdot 10\) or \(3\cdot -10\)</li>
+<li>\(-5\cdot 6\) or \(5\cdot -6\)</li>
+</ul>
+</li>
+<li>We want to look for the pair of factors that will combine to make \(b = -1\):&nbsp; \(5\cdot -6=-30\) and \(5+-6=-1\).</li>
+<li>We will use factor by grouping by splitting the middle term \(-x\) using the two factors we found.
+<ul>
+<li>\(2x^2-x-15=0 \implies 2x^2-6x+5x-15=0 \implies (2x^2-6x) +(5x-15)=0 \implies 2x(x-3)+5(x-3)=0 \implies (2x+5)(x-3)=0\)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Step 3: Apply the Zero Product Property
+<ul>
+<li>\(2x+5=0\)</li>
+<li>\(x-3=0\)</li>
+</ul>
+</li>
+<li>Step 4: Solve each equation for \(x\).
+<ul>
+<li>\(2x+5=0 \implies 2x+5-5=0-5 \implies 2x=-5 \implies \frac{2x}{2}=\frac{-5}{2} \implies x=-\frac{5}{2}\)</li>
+<li>\(x-3=0 \implies x-3+3=0+3 \implies x=3\)</li>
+</ul>
+</li>
+</ul>
+<p>The solutions to the quadratic are \(\{x=-\frac{5}{2},x=3\}\).</p>
+<h4><br>Conclusion</h4>
+<p>In this lesson, we learned how to solve quadratic equations in one variable by factoring. This technique builds on your previous knowledge of factoring quadratic expressions and uses the Zero Product Property to find solutions. Factoring is a powerful tool, especially for equations that can be easily broken down into simpler factors. In our next lesson, we will explore how to solve quadratic equations that factor into perfect square trinomials, such as \((x+a)^2\). Keep practicing these techniques, and you’ll master solving quadratic equations in no time!</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. How can you identify when an expression is factorable?</p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">2. How does factoring quadratic expressions relate to real-world contexts and how can it be used to model real-world situations?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">3. When can factoring be used to solve quadratic equations?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">4. What is the zero-product property and how does it relate to solving factored equations?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 3 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">6.03a &middot; Solving Quadratic Equations by Factoring</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 6.03b Solving Quadratic Equations using Square Roots</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q3 &middot; Module 6</div>
+        <div style="font-size: 13px; color: #666;">Algebraic Reasoning</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">6.03b</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Algebraic Reasoning</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">6.03b</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Solving Quadratic Equations using Square Roots</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong>Coefficient</strong>: A number that multiplies a variable in an algebraic expression. For example, in <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord">3</span><span class="mord mathnormal">x</span></span></span></span>, the coefficient is 3.</p>
+<p><strong>Constant Term</strong>: A term in an equation or expression that does not contain a variable. For example, in <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cNZOeDpUwhUkjKkWXNYBqBhtsBACjrBF6LAAAA" alt="x squared plus 5 x plus 6" loading="lazy">, the constant term is 6.</p>
+<p><strong>Difference of Squares</strong>: A special algebraic expression in the form <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTLtFGH0ja5ObZGQFZeXZAAiKVb6cLZOcjKU3CoVQfZLsdAFFVi%2BCEAAAA" alt="a squared minus b squared" loading="lazy">, which can be factored as <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mbin">+</span></span><span class="base"><span class="mord mathnormal">b</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mbin">−</span></span><span class="base"><span class="mord mathnormal">b</span><span class="mclose">)</span></span></span></span>.</p>
+<p><strong>Factored Form</strong>: A way of writing an expression as a product of its factors. For example, <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cNZOeDpUwhUkjKkWXNYBqBhtsBACjrBF6LAAAA" alt="x squared plus 5 x plus 6" loading="lazy"> in factored form is <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mbin">+</span></span><span class="base"><span class="mord">2</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mbin">+</span></span><span class="base"><span class="mord">3</span><span class="mclose">)</span></span></span></span>.</p>
+<p><strong>Leading Coefficient</strong>: The coefficient of the term with the highest degree in a polynomial. For example, in <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXbGNvpA0ia3uLQASGbaVQD5mWAZI4iMPlQq304byM5HlkJSjixrCNMItMYOAF652xCVAAAA" alt="3 x squared plus 2 x plus 1" loading="lazy">, the leading coefficient is 3.</p>
+<p><strong>Perfect Square</strong>: A number or expression that can be written as the square of another number or expression. For example, 16 is a perfect square because <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLPzsRGH0iCWEYQlj5UKt%2FOFsjOB0sZmsHkgPrtAPWKysZuAAAA" alt="4 squared equals 16" loading="lazy">, and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord"><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cNZOeDpcwgUkjKkWUtYRqBhtsBABAlQLCLAAAA" alt="x squared plus 6 x plus 9" loading="lazy"></span></span></span></span> is a perfect square because it equals <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAEWOSwqFQAwEryJuBYO6URlzAj3Ewz84GdF5xOPbDoiboiDdTYz9%2BSW67CZnEy%2Fe7zWRqqZapO6YKauqkjpEAro2ZmPP%2Fw5Oo%2FTjADmcgitfhkBjHScwBxMuYMJACNFXEs7fU5ij5w2%2BAXr8sa2NAAAA" alt="open parentheses x plus 3 close parentheses squared" loading="lazy">.</p>
+<p><strong>Quadratic Equation</strong>: An equation of the form <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXaJNvpA0ia3uLQAzK%2BA8vPsjICsPDsgAZHKt9MGsvPBipKgihDKkWWT4WK2ULE8OwOYYUCr7QBl7uo2qQAAAA%3D%3D" alt="a x squared plus b x plus c equals 0" loading="lazy">, where <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">a</span></span></span></span>, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">b</span></span></span></span>, and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">c</span></span></span></span> are constants, and <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXaJNvpA0iY3305NucLIyMzAGiiQDxTIszMAsvLsgARQuR0Aw1tdml0AAAA%3D" alt="a not equal to 0" loading="lazy">.</p>
+<p><strong>Quadratic Formula</strong>: A formula used to find the solutions of a quadratic equation. It is written as <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAFWPwQ6CMBBEf8Vg4k02qAfRsgfP8hGVRGliWyw12893oRuIl9nJzutkq6yO%2FSbZtxuboo9xuAAQUUnH0ocXVHV9hpaRWdp7gcoaTApYlfXYsPPsnkF3PIKneb2XtcHHgu626VZdJRg%2FIU7jO%2FxRDg%2FsHLLkaK1yeMoRg1pwg112IIUgF2Rd2tYnAoAcDNPv8QdGyZPZBAEAAA%3D%3D" alt="x equals fraction numerator negative b plus-or-minus square root of b squared minus 4 a c end root over denominator 2 a end fraction" loading="lazy"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord"><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-s">​</span></span></span></span></span></span><span class="vlist-s">​</span></span></span></span></span></span></span></span>.</p>
+<p><strong>Solution</strong>: A value or values of a variable that make an equation true. For example, the solutions to <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cLZOeDpUwgUkCeLVzMAKYcaKQdAOI8c2OBAAAA" alt="x squared minus 4 equals 0" loading="lazy"> are <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span><span class="mrel">=</span></span><span class="base"><span class="mord">2</span></span></span></span> and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span><span class="mrel">=</span></span><span class="base"><span class="mord">−</span><span class="mord">2</span></span></span></span>.</p>
+<p><strong>Square Root</strong>: A number that, when multiplied by itself, equals the original number. For example, the square root of 25 is 5.</p>
+<p><strong>Zero Product Property</strong>: A property stating that if the product of two factors is zero, then at least one of the factors must be zero. For example, if <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">ab</span><span class="mrel">=</span></span><span class="base"><span class="mord">0</span></span></span></span>, then either <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">a</span><span class="mrel">=</span></span><span class="base"><span class="mord">0</span></span></span></span> or <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">b</span><span class="mrel">=</span></span><span class="base"><span class="mord">0</span></span></span></span>.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p>In today’s lesson, we will explore how to solve quadratic equations using square roots. This method is especially useful when the equation is in the form <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXaJNvpA0ia3uLQAzK%2BA8vPsjICsPDsgAZHKt1NTrnAytAYK5INVJkNV5tvZQsXy7AxgeoA22AEALII8D5AAAAA%3D" alt="a x squared plus-or-minus c equals 0" loading="lazy"> or when it involves a perfect square, such as <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDItNS85NQXIKMovB5KZdhU2%2BkDSJjffTk25wsnQGsjNB0skQiT0ISr1ETrz7IyA3DyQGMTMfDtbqK48OwOYFNBeOwC8njoZpgAAAA%3D%3D" alt="open parentheses x plus-or-minus a close parentheses squared equals 0" loading="lazy"> or <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDItNS85NQXIKMovB5KZdok2%2BkASxKqAsvLt1JQrnAytgdx8sEQSREIfokcfYUaenRGQmwcSg5ieb2cL1ZVnZwCTArrADgBv0IBnsAAAAA%3D%3D" alt="open parentheses a x plus-or-minus b close parentheses squared equals 0" loading="lazy">. By learning this method, you will see how square roots can simplify solving quadratics without the need for factoring or applying the Zero Product Property. This builds on your understanding of squaring and square roots from previous lessons and prepares you for more advanced techniques in solving quadratic equations.</p>
+<h4><span style="color: #843fa1;"><strong><br>Key Concepts</strong></span></h4>
+<ol>
+<li><strong>Quadratic equations</strong> can appear in different forms, such as <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXaJNvpA0ia3uLQAzK%2BA8vPsjICsPDsgAZHKt9MGsvPBipKhivLtbKFieXYGMOVAw%2B0A3adVG4sAAAA%3D" alt="a x squared plus c equals 0" loading="lazy">, which can often be rewritten and factored into perfect square forms.</li>
+<li>A <strong>perfect square</strong> is a term or expression that results from squaring a binomial, such as <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDItNS85NQXIKMovB5KZdhU2%2BkDSJjffThvIygeLJULE9CGK9BGa8uyMgNw8kBjYOH2QM%2BwAquCQzo0AAAA%3D" alt="open parentheses x plus a close parentheses squared" loading="lazy"> or <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDItNS85NQXIKMovB5KZdok2%2BkASxKqAsvLttIGsfLBYEkRMH6JcH6E9z84IyM0DiYEN1gc5yA4AhYuws5cAAAA%3D" alt="open parentheses a x plus b close parentheses squared" loading="lazy">.</li>
+<li>The goal is to isolate the squared term and then apply the square root to both sides of the equation.</li>
+<li>When taking the square root of both sides, remember to include both the positive and negative solutions.</li>
+</ol>
+<h4><span style="color: #843fa1;"><strong><br><br>Steps for Solving Using Square Roots</strong></span></h4>
+<ol>
+<li>
+<p><strong>Rearrange the equation (if necessary):</strong> Ensure the squared term is isolated on one side of the equation.</p>
+</li>
+<li>
+<p><strong>Simplify the equation:</strong> Divide or multiply as needed to fully isolate the squared term.</p>
+</li>
+<li>
+<p><strong>Take the square root of both sides:</strong> Apply the square root operation, remembering to include<span style="font-family: math;"> <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BXZqyhVOhtY2%2BkAmkABK2AEACzGjQkcAAAA%3D" alt="plus-or-minus" loading="lazy"></span>.</p>
+</li>
+<li>
+<p><strong>Simplify the solution:</strong> Ensure your answers are in their simplest form.</p>
+</li>
+</ol>
+<h4><br><span style="color: #e67e23;">Example 1</span></h4>
+<p>Solve <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cLZOeDpQzNIHJAri1c0ACmHmimHQCvpBcFggAAAA%3D%3D" alt="x squared minus 16 equals 0" loading="lazy">.</p>
+<ul>
+<li>Isolate the <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiylDzLSDgB7rhEqWQAAAA%3D%3D" alt="x squared" loading="lazy"> term by adding 16 to both sides.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cLZOeDpQzNIHJAri1c0AAqVlyQmJyqkJOZl5pUlJqYbauUl1oO4inpgzWoKVc4GlhDdVHG1cbmIEpNwOt8IkLJFsNIfVBs2AEAAtxyqpQBAAA%3D" alt="x squared minus 16 equals 0
+space space space space space plus 16 space space space plus 16
+x squared equals 16" loading="lazy"></li>
+</ul>
+</li>
+<li>Take the square root of both sides.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xYVFJSCqtABIZtpV2OgDSZvcPDsjICvPDkiApfRhCvPtbIGcfDBLTbnCydAayoXK59kZmsF1goX0QY6yAwCrdnSomwAAAA%3D%3D" alt="square root of x squared end root equals plus-or-minus square root of 16" loading="lazy"></li>
+</ul>
+</li>
+<li>Simplify and identify the solutions.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXYVNvpA0iY3384WyMoHs3ShrDw7EyArDyymplzhaGANlci0y4dqy7QrghuApgTTZLh5%2BiCX2gEA4sy2NrAAAAA%3D" alt="x equals negative 4 space o r space x equals 4" loading="lazy"></li>
+</ul>
+</li>
+</ul>
+<p>**NOTE - When taking square roots to solve a quadratic this will always create 2 solutions. Sometimes a positive and negative of the same value.</p>
+<h4><span style="color: #e67e23;"><br>Example 2</span></h4>
+<p>Solve <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXZGNvpA0ia3uLQASGbaVQD5mcgy%2BlCpfDtdIDsfLGVqANWVb2cLFzSAqQeabgcA4V8JA4wAAAA%3D" alt="2 x squared minus 50 equals 0" loading="lazy">.</p>
+<ul>
+<li>Isolate the <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiylDzLSDgB7rhEqWQAAAA%3D%3D" alt="x squared" loading="lazy"> term by adding 50 to both sides.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXZGNvpA0ia3uLQASGbaVQD5mcgy%2BlCpfDtdIDsfLGVqANWVb2cLF4SJFRckJqcq5GTmpSYVpSZm2yrlpZaDeEr6YA1qyhWOBtZQXZRxtbE5iFIT8DqfpPCyxTBcHxRDdgCYMu%2FbqAEAAA%3D%3D" alt="2 x squared minus 50 equals 0
+space space space space space plus 50 space space space plus 50
+2 x squared equals 50" loading="lazy"></li>
+</ul>
+</li>
+<li>Simplify by dividing both sides by 2.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAMWQTQqDMBCFryIpdOlYi1DbJNB9PUSUUEPNjOiUePxGUWg3ha66eczjG978SG%2B4TSbf4ahEy9yfAUIIaTimNNzhUJYnqGLLItVNaOktNh2NNkFiw45QiZqYyc8MdS4hqvTjs4%2Fq9BS9eyewItIq1rSgItvYGj4H9KaxSefQ1oM1DyXQhtkJ%2BJhDer%2BbrtllzfqXfTv8294%2FfSUvNhZ%2Fr18JSF3uqgEAAA%3D%3D" alt="bottom enclose 2 x squared equals 50 end enclose
+2 space space space space space space space space space 2
+x squared equals 25" loading="lazy"></li>
+</ul>
+</li>
+<li>Take the square root of both sides.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xYVFJSCqtABIZtpV2OgDSZvcPDsjICvPDkiApfRhCvPtbIGcfDBLTbnCydAayoXKAzWawnWChfRBjrIDAAhZEuqbAAAA" alt="square root of x squared end root equals plus-or-minus square root of 25" loading="lazy"></li>
+</ul>
+</li>
+<li>Simplify and identify the solutions.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXYVNvpA0iY3384WyMoHs3ShrDw7UyArDyymplzhaGANlci0y4dqy7QrghuApgTTZLh5%2BiCX2gEAfg%2FuurAAAAA%3D" alt="x equals negative 5 space o r space x equals 5" loading="lazy"></li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>Not all values will be perfect squares when you take the square root of both sides. If it is not a perfect square, then simplify the square root and leave in square root form. Do NOT turn into a decimal unless the problem asks you to estimate or approximate the answer.</p>
+<h4><span style="color: #e67e23;">Example 3</span></h4>
+<p>Solve <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXbGNvpA0ia3uLQASGbaVQD5mWAZI4iMPlQq384WyM4HS1maweSAJtkBADZjwmB4AAAA" alt="3 x squared equals 96" loading="lazy">.</p>
+<ul>
+<li>Simplify by dividing both sides by 3.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAMWQTQrCMBCFr1IiuOxYC2I1Cbi3h0hLsMFmprQj6fFNaxXdCK7cPObxDW9%2BpDfcJKNvcVCiYe4OACGENOQp9RfIimIPZWyZpTwLLb3FuqXBJkhs2BEqUREz%2BYmhziVElX64dVGdHqN3M9k%2BCCyItIo1zajYPdkSPgV0prZJ69BWvTVXJdCGyQn4mEN6vRpPm%2BOS9S%2F7dvi3vX%2F6Sv5i8ff6DrpjSFqqAQAA" alt="bottom enclose 3 x squared equals 96 end enclose
+3 space space space space space space space space space 3
+x squared equals 32" loading="lazy"></li>
+</ul>
+</li>
+<li>Take the square root of both sides.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xYVFJSCqtABIZtpV2OgDSZvcPDsjICvPDkiApfRhCvPtbIGcfDBLTbnCydAayoXK59kZI3SChfRBjrIDAJC73ZSbAAAA" alt="square root of x squared end root equals plus-or-minus square root of 32" loading="lazy"></li>
+</ul>
+</li>
+<li>Simplify and identify the solutions.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAK1S3QqCMBR%2BFVnQXZ7MqKx5oK7zISxGjtxmczAfv2mrC6MS8ubbOYeP7wdGRW6KoBGlrFNSGFNtAay1oY1DpS8QJckGMkfpIDsSpIJjQ8EhFQpTN6lumvmpvmnjHonxwl0kOvAnhdNJs5%2FvPJGj8jIc9UuwR3l3%2BqxfV%2FmZBSWX7KRZfk2JZLbdCAwP7TUfQQ7rZxCJ0ep7m5HLDc%2FxR2uJS2%2FT9x2v5YDSv2NA%2B0nxDslMK2urAgAA" alt="x equals negative square root of 32 space o r space x equals square root of 32
+x equals negative square root of 2 times 16 end root space space o r space x equals square root of 2 times 16 end root
+x equals negative 4 square root of 2 space space o r space space x equals 4 square root of 2" loading="lazy"></li>
+</ul>
+</li>
+</ul>
+<p><br><br>Now, we will look at perfect square trinomials that can factor into the forms <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDItNS85NQXIKMovB5KZdhU2%2BkDSJjffTk25wsnQGsjNB0skQiT0ISr1ETrz7IyA3DyQGMTMfDtbqK48OwOYFNBeOwC8njoZpgAAAA%3D%3D" alt="open parentheses x plus-or-minus a close parentheses squared equals 0" loading="lazy"> or <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDItNS85NQXIKMovB5KZdok2%2BkASxKqAsvLt1JQrnAytgdx8sEQSREIfokcfYUaenRGQmwcSg5ieb2cL1ZVnZwCTArrADgBv0IBnsAAAAA%3D%3D" alt="open parentheses a x plus-or-minus b close parentheses squared equals 0" loading="lazy">.</p>
+<h4><span style="color: #e67e23;">Example 4</span></h4>
+<p>Solve <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cLZOeDpQxNIHJI6vPttOHSJpZQ6Xw7W7igAcw4oJV2APKZBt%2BhAAAA" alt="x squared minus 14 x plus 49 equals 0" loading="lazy">.</p>
+<ul>
+<li>Factor the quadratic by identifying the factors of 49 that will combine to make -14.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BXa6NvpA0iY3z84cyMoDi6kpVziZW0MlsCuxhYuZWCLrczSA6cu0SwSyMsGsPDgrBcpCU4zdEm2inIAsa2gCkdYHBYUdABFe2BoRAQAA" alt="negative 7 times negative 7 equals 49 space a n d space minus 7 plus negative 7 equals negative 14" loading="lazy"></li>
+</ul>
+</li>
+<li>Factor the quadratic.
+<ul>
+<li>Since the factors are the same number and 49 is&nbsp; a perfect square, this quadratic will factor into the form <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAEWNQQqDUAxEryLuNa0urOWbE9RDSGtV8Ceiv8TjOyjWzePBzCTON6GPVj%2FKUsV9CNOTyMxSy1OdO7qX5YNqVHbUr5idX34T%2BG3l3X4gsxo48OoIdF45gSlMuIAJA3uJrpFwdkbHOeXqv7qdEV7yBgS5XfGhAAAA" alt="open parentheses x minus 7 close parentheses squared equals 0" loading="lazy">.</li>
+</ul>
+</li>
+<li>Take the square root of both sides to cancel out the square on the ( ).
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAEWOXQ6CQAyEr2J4l%2FrzAJilJ5BDGAExcVtc1pTjO2xAX75OptNJnb%2FFYTf7l0x1NsQ4XojMLLdzruFBx6oqqUEkoblm7Pz0DnEZnxHsO7l3LURQA588OwKdV95DKZRwASUMpBD9j4RP2yrV0VauXK%2FXqyF8%2BCWTQ8vj%2FAUl815%2FvwAAAA%3D%3D" alt="square root of open parentheses x minus 7 close parentheses squared end root equals square root of 0" loading="lazy"></li>
+</ul>
+</li>
+<li>Solve remaining equation.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXYVNvpA0iY3304XyMoHsvLszIGsPLCYLVzMACpWXJCYnKqQk5mXmlSUmphtq5SXWg7iKemDNagpVzgaWEN1EeJqY7GRQgPwOg%2FZt7boWvVBoWcHAMHAeUhEAQAA" alt="x minus 7 equals 0
+space space space plus 7 space space space plus 7
+x equals 7" loading="lazy"></li>
+</ul>
+</li>
+</ul>
+<h4><span style="color: #e67e23;"><br>Example 5</span></h4>
+<p>Solve <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDItNS85NQXIKMovB5J5dkY2%2BkDSJjfTrgLIygSy8u20gax8sKwxRFYfolwfoR2uUR9qcL6dLVyXiSVMDmi7HQChEs2RrAAAAA%3D%3D" alt="open parentheses 2 x plus 3 close parentheses squared equals 49" loading="lazy">.</p>
+<ul>
+<li>Take the square root of both sides to cancel out the square on the ( ).
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAI1Qyw6CQAz8FbImXkxoEBNFlx48y0cgrkJkHy5rls%2B3wIInEy%2FTaabTacpl6eqol63qclY7Z44A3vvYp7G2D0iy7AAFjYxQXBhy2b2sG8rbEN6FqsSNiNWeUOGWAyGXDfbEGmIaN8T0qKaTCtM4fO2LEabFMMdozINb43rVn5NTaIOucJctznCZKSsRtY0SVyvKZ86U8EPH4P8Lf%2Bcq3M959BL8AD3KClhBAQAA" alt="square root of open parentheses 2 x plus 3 close parentheses squared end root equals plus-or-minus square root of 49
+2 x plus 3 equals plus-or-minus 7" loading="lazy"></li>
+</ul>
+</li>
+<li>Solve remaining equations. Since there is a <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BXZqyhVOhtY2%2BkCmTW6enTmQlWcHJIBK7ADXcUsoUQAAAA%3D%3D" alt="plus-or-minus 7" loading="lazy">, it will create 2 equations to solve.
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALVSwQ6CMAz9FTITLwYGEqPotsS7fMQgiyyylcCS8flORLggHMRL87rXvrYvI4qbwmtVqRuKCmOqM8bW2sDGAdR3HCXJCaeupAvpDTGiNNsT7CJRkrUOSYeA7RyCjo17Fhjt34D5A3vs2abiufBKqUVWC%2F6gSAv7yhDuGrab9hpehv5fUn9is7%2FKz54mdF5CIzwNhhsJmqIMjAH13dkpF6PwXYg%2FektjR%2BlVj18tHfebPWPJl8PHFvdb2RNWh%2BnO3AIAAA%3D%3D" alt="2 x plus 3 equals negative 7
+space space space space space minus 3 space space space space space minus 3
+bottom enclose 2 x equals negative 10 end enclose
+2 space space space space space space space space space space 2
+x equals negative 5" loading="lazy"> or <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALVSwQ6CMAz9FTITL0amYKLotsS7fMQgiyyylsCS8flOBLkgHtRL89q3vvY1Y0baImhNCQ0nhbXVkVLnXOjiEOsr3SbJgab%2BSRfSCxHMgIgY9ZEZLVqPtEcoVh5hx8Y9i4K%2Favu%2B1lQyV0GpQWW1kjdOQLlHRmjXsFy0582p7%2Fppup5Y70uBWS8K8hIbFQBaaTUCJxlai%2Bb9Acdj7Z4sHUQ%2BzRr1%2FnfBccbsKtOGosGQ%2F0PiDu6GJWlyAgAA" alt="2 x plus 3 equals 7
+space space space space space space minus 3 space space space minus 3
+bottom enclose 2 x equals 4 end enclose
+2 space space space space space space 2
+x equals 2" loading="lazy"></li>
+</ul>
+</li>
+<li>Solutions are x=-5 or x=2.</li>
+</ul>
+<h4><strong><br><br>Completing the Square</strong></h4>
+<p>Now we will explore how to solve quadratic equations by completing the square. This method allows us to rewrite a quadratic equation in the form of a perfect square trinomial, which can then be solved using square roots. Completing the square is an important technique that builds on your understanding of quadratic expressions, square roots, and solving equations. By the end of this lesson, you will be able to solve quadratic equations by creating perfect square trinomials and applying the square root method.</p>
+<h4><span style="color: #843fa1;"><strong>Key Concepts</strong></span></h4>
+<ol>
+<li><strong>Completing the square</strong> involves rewriting a quadratic equation <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cNZOeDFSVBFSGUI8smw8VsoWJ5dgYww4AW2gEAvlcfGZ8AAAA%3D" alt="x squared plus b x plus c equals 0" loading="lazy"> as <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAEWNXQ5AQAyEryJeJRq8IKsn4BDC%2BknsVlip4ysbvHyZTmY6yrRuCk6z2L0KJ%2BfWEoCZY85i2kZIiiKHRiIPmjpEZfZjFQ7adroXsRELZzwVCJUhjETR4%2FXeAx%2BCv2QxldPenn9HWH0t%2FbZkEi9bEQahoQAAAA%3D%3D" alt="open parentheses x plus d close parentheses squared equals e" loading="lazy">, where <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">d</span></span></span></span> and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">e</span></span></span></span> are constants.</li>
+<li>A <strong>perfect square trinomial</strong> is a quadratic expression of the form <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDItNS85NQXIKMovB5KZdhU2%2BkDSJjffThvIygeLJULE9CGK9BGa8uyMgNw8kBjEuHw7W6guCB9hHhalMAvgUgirsDoEZmQiDiP1QYFgBwBjsZsrCwEAAA%3D%3D" alt="open parentheses x plus a close parentheses squared equals x squared plus 2 a x plus a squared" loading="lazy">.</li>
+<li>Once the equation is in the form <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAEWNXQ5AQAyEryJeJRq8IKsn4BDC%2BknsVlip4ysbvHyZTmY6yrRuCk6z2L0KJ%2BfWEoCZY85i2kZIiiKHRiIPmjpEZfZjFQ7adroXsRELZzwVCJUhjETR4%2FXeAx%2BCv2QxldPenn9HWH0t%2FbZkEi9bEQahoQAAAA%3D%3D" alt="open parentheses x plus d close parentheses squared equals e" loading="lazy">, we can solve it by applying the square root property.</li>
+</ol>
+<h4><span style="color: #843fa1;"><strong><br>Steps for Solving by Completing the Square</strong></span></h4>
+<ol>
+<li>
+<p><strong>Rearrange the equation:</strong> Move the constant term to the other side of the equation so that only the quadratic and linear terms are on one side.</p>
+</li>
+<li>
+<p><strong>Make the coefficient of <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiylDzLSDgB7rhEqWQAAAA%3D%3D" alt="x squared" loading="lazy">&nbsp;equal to 1:</strong> If the coefficient of <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiylDzLSDgB7rhEqWQAAAA%3D%3D" alt="x squared" loading="lazy"> is not 1, divide the entire equation by<span style="font-family: math;"> </span><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">a</span></span></span></span>.</p>
+</li>
+<li>
+<p><strong>Complete the square: </strong>Take half of the coefficient of <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span>, square it, and add it to both sides of the equation.</p>
+</li>
+<li>
+<p><strong>Rewrite as a perfect square trinomial: </strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">The left side of the equation is now a perfect square trinomial that can be factored.</span></p>
+</li>
+<li>
+<p><strong>Solve using square roots: </strong><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">Take the square root of both sides of the equation, remembering to include </span><span class="katex" style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord">±</span></span></span></span><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"> for the two possible solutions.</span></p>
+</li>
+<li><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;"><strong>Simplify the solutions:</strong> Solve for <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span> to find the two solutions.</span></li>
+</ol>
+<h4><span style="color: #e67e23; font-size: 14pt;"><br>Example 1</span></h4>
+<p>Solve <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cNZOeDpUwgUkjK8%2B104bKmUNl8O1u4mAHMMKCFdgAF8d7wnwAAAA%3D%3D" alt="x squared plus 4 x minus 5 equals 0" loading="lazy"> by completing the square.</p>
+<ul>
+<li>Rearrange - <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cNZOeDpUwgUkjK8%2B1s4bKmMI1Aw%2B0AK4VlSIsAAAA%3D" alt="x squared plus 4 x equals 5" loading="lazy"></li>
+<li>Complete the square: Half of 4 is 2, and <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLPzshGH0gisfQhUvogI%2B0AkOkxElkAAAA%3D" alt="2 squared" loading="lazy">=4. Add 4 to both sides to keep balanced - <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cNZOeDpUwgUkjKscnm29nCxUzhYhjq9EGOtQMA6udpCrMAAAA%3D" alt="x squared plus 4 x plus 4 equals 5 plus 4" loading="lazy"></li>
+<li>Rewrite using the perfect square trinomial format - <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAE2NSwqEQAxEryJuBcOMG1vanGA8hPiH6Y5oSzy%2BhTKOm8eDqkqsq8MY7e7r1zIeQ5gLIlVNNUtlGehlTE4VKieqT8zWrdsM9p1vuhayiIIT75ZA64QTmMA8v2GegbNE%2F9Ejus4Jl%2FfK%2FCK85AOIBO1KoQAAAA%3D%3D" alt="open parentheses x plus 2 close parentheses squared equals 9" loading="lazy"></li>
+<li>Solve using square roots - <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAJ2QwQrCMAyGX0UmeBEW212s6wJ6dg8hOp1g29lVusc3ltbtoqCXP%2F9P8gUSqQ6unQ3qpvsqa53rNgDe%2B9wXubEXYEKsoaaRIPU%2BQ6n6u3Wv8uhIz40%2BNicy1njSKw4SSKUyuCRnyGnk5DSShCEYoUkrrIO03GAVaYOL%2BbBjZYyxr1G8wUTQ3HZVTrGfImeC%2F0%2BP8esLPh%2BmsUgX0afxCZpmpxuYAQAA" alt="square root of open parentheses x plus 2 close parentheses squared end root equals plus-or-minus square root of 9 space space space space rightwards arrow space space space space x plus 2 equals plus-or-minus 3" loading="lazy"></li>
+<li>Simplify to isolate x and find the solutions -&nbsp;
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXYVNvpA0iY3304byMoHsvLsjICsPLCYLVQs304XLmsMlS0uSExOVcjJzEtNKkpNzLZVykstB%2FGU9MEa1JQrHA2s4frxc3Wx2E2SAQTNw%2Bta5GDA5mVTiCH6oAC2AwBah0CBZwEAAA%3D%3D" alt="x plus 2 equals negative 3
+space space space minus 2 space space space space minus 2
+x equals negative 5" loading="lazy"> or <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXYVNvpA0iY3304byMoHsvLsjICsPLCYLVzMGCpWXJCYnKqQk5mXmlSUmphtq5SXWg7iKemDNagpVzgaWEN1EeLqYrGRQgPwOg%2FZtwifGUK06oNCzw4Akz9ISEQBAAA%3D" alt="x plus 2 equals 3
+space space space minus 2 space space space minus 2
+x equals 1" loading="lazy"></li>
+</ul>
+</li>
+</ul>
+<p>Solutions: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5aal5yakpCvkFqXm2StVKCsk5%2BcWptkq1ILmi%2FHIgmWlXYaMPJG1y8%2B1sgax8MEsXysqzMwWy8sBiOnBZNeUKRwNrKBebAXl2hhBt%2BhBb9KEOAbGAbrMDAKCBdl3KAAAA" alt="open curly brackets x equals negative 5 comma space x equals 1 close curly brackets" loading="lazy"></p>
+<h4><span style="color: #e67e23; font-size: 14pt;"><br>Example 2</span></h4>
+<p>Solve <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cLZOeDpQwNIHJI6vPttOHSJlDZfDtbuJgBzDSgjXYARunzPaAAAAA%3D" alt="x squared minus 10 x plus 4 equals 0" loading="lazy">&nbsp;by completing the square.</p>
+<ul>
+<li>Rearrange - <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cLZOeDpQwNIHJI6vPtbKHSyApNYGYA7bEDAOAz3nqWAAAA" alt="x squared minus 10 x equals negative 4" loading="lazy"></li>
+<li>Complete the square: Half of 10 is 5, and <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLPztRGH0iCWEYQlj5UKt%2FOFsjOh0iZwuSA%2Bu0AczBfzW4AAAA%3D" alt="5 squared equals 25" loading="lazy">. Add 25 to both sides to keep balanced - <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTrsJGH0ja5ObZGQFZeXZAAiKVb6cLZOeDpQwNIHJI6vPttOHSRqZQ6Xw7W6ggsm4TuCymFn2Qy%2B0Ao3XWJMAAAAA%3D" alt="x squared minus 10 x plus 25 equals negative 4 plus 25" loading="lazy"></li>
+<li>Rewrite using the perfect square trinomial format - <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAEWNUQqDQAxEr1L8r0FF0LLmBHoIsVoLbiK6Eo%2FvYNH%2BPB7MTOJ8G8bH7idZq2gMYX4RmVlsWazLh5KyLKhB5URTR%2Bz8us3g0EvXvyGLGvjl3RHovPITpjDhHCYMnCX6j4TTK%2FqdU67uVZpcGX7yAWVaaBmiAAAA" alt="open parentheses x minus 5 close parentheses squared equals 21" loading="lazy"></li>
+<li>Solve using square roots - <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAJ2RwQrCMBBEf0UqeLNrIoK16YKe7UeIViuYpKaR5PPdhsR6EuxlMsPOW0gi5Mm2My8fqq%2By1tpuB%2BCcy9061%2BYGrCi2UFMlSH3MUMj%2BaexwvDrSa6POzYWM0Y70jl4AqZAal%2BQ0OYUbcgpJQglGSCFPo7AO0nKNVaQ1Lub%2BwMoY45xA9iETQsX9qvzm%2FoqcFXw6PcafbzDhZjB8Eb4B%2FB2kT6kBAAA%3D" alt="square root of open parentheses x minus 5 close parentheses squared end root equals plus-or-minus square root of 21 space space space space rightwards arrow space space space space x minus 5 equals plus-or-minus square root of 21" loading="lazy"></li>
+<li>Simplify to isolate x and find the solutions -&nbsp;
+<ul>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXYVNvpA0iY3304XyMoHsvLsTIGsPLCYLVQMIVtcWFQCVmRkCFGlDxMqLkhMTlXIycxLTSpKTcy2VcpLLQfxlPTBBqgpVzgaWMPNQ%2BNqY7Ecvw6CBuB1D7LHbbHYTdC7%2BqDAtgMA6IiQA3MBAAA%3D" alt="x minus 5 equals negative square root of 21
+space space plus 5 space space space plus 5
+x equals 5 minus square root of 21" loading="lazy"> or <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXYVNvpA0iY3304XyMoHsvLsTIGsPLCYLVSsuLCoBCxlZAiR04cJFRckJqcq5GTmpSYVpSZm2yrlpZaDeEr6YAPUlCscDayhphDiamNxAYUG4HUesu9tsditTcj3%2BqAQtwMAbVVJH3gBAAA%3D" alt="x minus 5 equals square root of 21
+space space space plus 5 space space space plus 5
+x equals 5 plus square root of 21" loading="lazy"></li>
+</ul>
+</li>
+</ul>
+<p>Solutions: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAIVPQQrCMBD8SojgRe1aRbCaLHi3j5AardBkaxtIQPy72zaeexlmZ4ZhR9mbr0W0jeu1rL1vTwAhhCzsM%2BqekBfFEUqOjFBeJSr7MK4yd0GtcVp%2BpKga6o2W38HrKDC%2BMCpgVJZQMyNmDg%2FM3Khtkta%2FOz9au3zy4C8RrlOGcLmIl%2B05nXPVq7lqmH6ENGNgvAx%2FWEYOdQgBAAA%3D" alt="open curly brackets x equals 5 minus square root of 21 comma space x equals 5 plus square root of 21 close curly brackets" loading="lazy"></p>
+<h4><br><strong>Conclusion</strong></h4>
+<p>In this lesson, we focused on solving quadratic equations using square roots. This method is particularly efficient for equations involving perfect squares or when the quadratic term can be isolated. Remember to always include both the positive and negative solutions when taking square roots. You also learned how to solve quadratic equations by completing the square and using square roots. This technique allows you to transform any quadratic equation into a form that is easy to solve by taking square roots. It is especially useful for equations that are not easily factored. In our next lesson, we will explore how completing the square connects to the quadratic formula and how you can use it for all quadratic equations. Keep practicing these steps to build your confidence!</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. <span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">When can square roots be used to solve quadratic equations?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">2. How does simplifying radicals help in solving equations?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">3. What types of real-world problems can be modeled by square root equations?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 3 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">6.03b &middot; Solving Quadratic Equations using Square Roots</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

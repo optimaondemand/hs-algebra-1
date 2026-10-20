@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 8.03c Graphing an Exponential Function from an Equation</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 8</div>
+        <div style="font-size: 13px; color: #666;">Exponential Functions</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">8.03c</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Exponential Functions</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">8.03c</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Graphing an Exponential Function from an Equation</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong>Asymptote: </strong>A horizontal line that the graph of an exponential function approaches but never crosses. Exponential functions have a horizontal asymptote at \(y=0\) unless there is some constant c added to or subtracted from the end of the function's equation. For example, the function \(f(x)=4(0.25)^x-3\) has an asymptote at the line \(y=-3\).</p>
+<p><strong>Base: </strong>The base, denoted by 'b' in an exponential function, represents the factor by which the function grows or decays. It is a positive real number greater than 0 and not equal to 1.</p>
+<p><strong>Coordinate Plane: </strong>A plane formed by two perpendicular number lines, the x-axis (horizontal) and the y-axis (vertical), used for plotting points and graphing functions.</p>
+<p><strong>Exponential Decay: </strong>The rapid decrease in the value of an exponential function as the input values (x) increase. Exponential decay occurs when the base (b) is between 0 and 1.</p>
+<p><strong>Exponential Function: </strong>A mathematical function of the form \(f(x)=ab^x\), where 'a' is the initial value, 'b' is the base, and is a positive real number greater than 0 and not equal to 1. Exponential functions exhibit rapid growth or decay as the input value, x, changes.</p>
+<p><strong>Exponential Growth: </strong>The rapid increase in the value of an exponential function as the input values (x) increase. Exponential growth occurs when the base (b) is greater than 1.</p>
+<p><strong>Graph: </strong>A visual representation of the relationship between the input values (x) and the output values (y) of a function. Graphs are created by plotting points on a coordinate plane and connecting them.</p>
+<p><strong>Growth Factor: </strong>The factor by which an exponential function increases at each step. It is calculated by raising the base (b) to the power of the input value (x).</p>
+<p><strong>Initial Value: </strong>The starting value or y-coordinate of the y-intercept of an exponential function. It is the value of the function when the input (x) is 0.</p>
+<p><strong>Smooth Connection: </strong>Drawing a continuous, flowing line that accurately represents the behavior of an exponential function between plotted points on a graph.</p>
+<p><strong>Y-Intercept: </strong>The point where the graph of an exponential function intersects the y-axis. It is represented as (0, a), where 'a' is the initial value. In cases where there is a constant added to or subtracted from the end of the exponential function's equation, the y-intercept is at the point (0, a + c).</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p><span>In today's lesson, we will explore graphing exponential functions when given an equation representing the exponential function. Understanding how to graph these functions is crucial for visualizing their behavior, which can range from rapid growth to steep decay. Key to this process are the y-intercept and the horizontal asymptote, which serve as guideposts for creating a table of values. This table, in turn, helps us plot the function accurately. We will look at four examples with equations in the forms \(y=a(b)^x\) and \(y=a(1\pm r)^x\), where b is both a whole number and a unit fraction, and r is both positive and negative. Through these examples, you'll learn how to harness these features to graph exponential functions effectively.</span></p>
+<p><span><br>Let's review two key features that will help us graph exponential functions. Then watch a short video on how to create the graphs when given a function. Finally, we will dive into a few examples.</span></p>
+<h4><span style="color: #843fa1;"><strong>Key Features for Graphing</strong></span></h4>
+<ul>
+<li><strong>Y-intercept:</strong> Found by setting \(x=0\) in the equation. This point is where the graph crosses the y-axis.</li>
+<li><strong>Horizontal Asymptote:</strong> A line that the graph approaches but never touches. For exponential functions, this is often \(y=0\), indicating the direction the graph heads as x approaches positive or negative infinity.</li>
+</ul>
+<h4><br><span style="color: #e67e23;">Example 1</span></h4>
+<p>Consider the function \(y=2(2)^x\). Create a graph to represent the function.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p>Identify the function as growth or decay, the y-intercept, and the horizontal asymptote. Then, create a table of values and a graph to represent the function.</p>
+<ul>
+<li>Since the value of b is greater than 1, the function represents growth.</li>
+<li>The initial value is 2. So, the y-intercept is (0, 2).</li>
+<li>The horizontal asymptote is y=0.</li>
+<li>
+<table style="border-collapse: collapse; width: 7.12075%; height: 158px;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9658%; text-align: center;"><strong>x</strong></td>
+<td style="width: 49.9658%; text-align: center;"><strong>y</strong></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-2</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-1</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">0</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">1</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>We can select 4 x values for the table. Then we substitute the x values into the equation and evaluate for y. Remember that a negative power uses the negative exponent rule; \(a^{-x}=\frac{1}{a^x}\).</li>
+<li>\(y=2(2)^{-2}=2(\frac{1}{2^2})=2(\frac{1}{4})=\frac{1}{2}\)</li>
+<li>\(y=2(2)^{-1}=2(\frac{1}{2})=1\)</li>
+<li>\(y=2(2)^0=2(1)=2\)</li>
+<li>\(y=2(2)^1=2(2)=4\)</li>
+<li>Now, we add the y values to the table. Then plot the ordered pairs and the horizontal asymptote.</li>
+<li>
+<table style="border-collapse: collapse; width: 7.12075%; height: 158px;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9658%; text-align: center;"><strong>x</strong></td>
+<td style="width: 49.9658%; text-align: center;"><strong>y</strong></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-2</td>
+<td style="width: 49.9658%; text-align: center;">1/2</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-1</td>
+<td style="width: 49.9658%; text-align: center;">1</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">0</td>
+<td style="width: 49.9658%; text-align: center;">2</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">1</td>
+<td style="width: 49.9658%; text-align: center;">4</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/wdcifllbmw?embed" width="500" height="500" loading="lazy"></iframe></li>
+<li>We can then use this graph to sketch the line representing the function.</li>
+<li><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/xm2udxqxyv?embed" width="300" height="300" loading="lazy"></iframe></li>
+</ul>
+<h4><br><br><span style="color: #e67e23;">Example 2</span></h4>
+<p>Consider the function \(y=3(\frac{1}{3})^x\). Create a graph to represent the function.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p>Identify the function as growth or decay, the y-intercept, and the horizontal asymptote. Then, create a table of values and a graph to represent the function.</p>
+<ul>
+<li>Since the value of b is a unit fraction less than 1, the function represents decay.</li>
+<li>The initial value is 3. So, the y-intercept is (0, 3).</li>
+<li>The horizontal asymptote is y=0.</li>
+<li>
+<table style="border-collapse: collapse; width: 7.12075%; height: 158px;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9658%; text-align: center;"><strong>x</strong></td>
+<td style="width: 49.9658%; text-align: center;"><strong>y</strong></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-1</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">0</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">1</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">2</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>We can select 4 x values for the table. Then we substitute the x values into the equation and evaluate for y. Remember that a negative power uses the negative exponent rule; \(a^{-x}=\frac{1}{a^x}\).</li>
+<li>\(y=3(\frac{1}{3})^{-1}=2(3^1)=2(3)=6\)</li>
+<li>\(y=2(\frac{1}{3})^0=2(1)=2\)</li>
+<li>\(y=2(\frac{1}{3})^1=2(\frac{1}{3})=\frac{2}{3} \approx 0.67\)</li>
+<li>\(y=2(\frac{1}{3})^2=2(\frac{1}{9})=\frac{2}{9}\approx 0.22\)</li>
+<li>Now, we add the y values to the table. Then plot the ordered pairs and the horizontal asymptote.</li>
+<li>
+<table style="border-collapse: collapse; width: 7.12075%; height: 158px;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9658%; text-align: center;"><strong>x</strong></td>
+<td style="width: 49.9658%; text-align: center;"><strong>y</strong></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-1</td>
+<td style="width: 49.9658%; text-align: center;">6</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">0</td>
+<td style="width: 49.9658%; text-align: center;">2</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">1</td>
+<td style="width: 49.9658%; text-align: center;">2/3</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">2</td>
+<td style="width: 49.9658%; text-align: center;">2/9</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/qugiee8eqh?embed" width="500" height="500" loading="lazy"></iframe></li>
+<li>We can then use this graph to sketch the line representing the function.</li>
+<li><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/ilsr56lexx?embed" width="300" height="300" loading="lazy"></iframe></li>
+</ul>
+<h4><br><br><span style="color: #e67e23;">Example 3</span></h4>
+<p>Consider the function \(y=1(1+0.3)^x\). Create a graph to represent the function.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p>Identify the function as growth or decay, the y-intercept, and the horizontal asymptote. Then, create a table of values and a graph to represent the function.</p>
+<ul>
+<li>Since the value of r is positive, the function represents growth.</li>
+<li>The initial value is 1. So, the y-intercept is (0, 1).</li>
+<li>The horizontal asymptote is y=0.</li>
+<li>
+<table style="border-collapse: collapse; width: 7.12075%; height: 158px;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9658%; text-align: center;"><strong>x</strong></td>
+<td style="width: 49.9658%; text-align: center;"><strong>y</strong></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-1</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">0</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">1</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">2</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>We can select 4 x values for the table. Then we substitute the x values into the equation and evaluate for y. Remember that a negative power uses the negative exponent rule; \(a^{-x}=\frac{1}{a^x}\).</li>
+<li>\(y=1(1+0.3)^{-1}=2(1.3)^{-1}\approx 0.76923\)</li>
+<li>\(y=1(1+0.3)^0=1(1)=1\)</li>
+<li>\(y=1(1.3)^1=1(1.3)=1.3\)</li>
+<li>\(y=1(1.3)^2=1(1.69)=1.69\)</li>
+<li>Now, we add the y values to the table. Then plot the ordered pairs and the horizontal asymptote.</li>
+<li>We can use decimal approximations for the table to make it easier to graph the points. We will approximate to the tenths place.</li>
+<li>
+<table style="border-collapse: collapse; width: 7.12075%; height: 158px;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9658%; text-align: center;"><strong>x</strong></td>
+<td style="width: 49.9658%; text-align: center;"><strong>y</strong></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-1</td>
+<td style="width: 49.9658%; text-align: center;">0.8</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">0</td>
+<td style="width: 49.9658%; text-align: center;">1</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">1</td>
+<td style="width: 49.9658%; text-align: center;">1.3</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">2</td>
+<td style="width: 49.9658%; text-align: center;">1.7</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/cpzt3xdlmk?embed" width="500" height="500" loading="lazy"></iframe></li>
+<li>We can then use this graph to sketch the line representing the function.</li>
+<li><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/kjsmlmbsue?embed" width="300" height="300" loading="lazy"></iframe></li>
+</ul>
+<h4><br><br><span style="color: #e67e23;">Example 4</span></h4>
+<p>Consider the function <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAEWOUQ6CQAxEr2L4dwdQEzBLTyCHMIpC4m4JLCne3sqa9WfyMtN2at019LvVvfzcZH0I4xkQESMHw9MTRV1XaHVkk%2FaSkXUDvS1UrWNqlFjJ01HJK83LqPro%2FK27K0wsW1z8YqZ9WsmTZ5JXnqKJuIn%2FpYHWWIvYge%2Fn9AGrzs4wwAAAAA%3D%3D" alt="y equals 4 open parentheses 1 minus 0.25 close parentheses to the power of x" loading="lazy">. Create a graph to represent the function.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p>Identify the function as growth or decay, the y-intercept, and the horizontal asymptote. Then create a table of values and a graph to represent the function.</p>
+<ul>
+<li>Since the value of r is negative, the function represents decay.</li>
+<li>The initial value is 4. So, the y-intercept is (0, 4).</li>
+<li>The horizontal asymptote is y=0.</li>
+<li>
+<table style="border-collapse: collapse; width: 7.12075%; height: 158px;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9658%; text-align: center;"><strong>x</strong></td>
+<td style="width: 49.9658%; text-align: center;"><strong>y</strong></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-1</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">0</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">1</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">2</td>
+<td style="width: 49.9658%; text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>We can select 4 x values for the table. Then we substitute the x values into the equation and evaluate for y. Remember that a negative power uses the negative exponent rule; <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5xaUFQDLTLtFGH0ja5BbllwPJfDtdID8fLFMBkdGHSOlDdeTb2UJVpBUlJgOpPDtDoEAeFiORjABL6UO16INcawcA4swSxLQAAAA%3D" alt="a to the power of negative x end exponent equals 1 over a to the power of x" loading="lazy">.</li>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXaVNvpA0iY3384WyMoHsvLsTICsPCCruLQASKal5iWnpgAZRfnlYGlDqHS%2BnS5ciwFcTA8uZmQKEdSH6NRHNwlZvyGaUojV%2BXZqyhWOBtZQZQg3okkQdDI255lT33lArpGRiQXCWaZY7DUGAgxhLCx9UHTaAQAgGGf81QEAAA%3D%3D" alt="y equals 4 open parentheses 1 minus 0.25 close parentheses to the power of negative 1 end exponent space equals space 4 open parentheses 0.75 close parentheses to the power of negative 1 end exponent space almost equal to 5.3333..." loading="lazy"></li>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXaVNvpA0iY3384WyMoHsvLsTICsPCCruLQASKal5iWnpgAZRfnlYGkDqHS%2BnR5ci7kpRFAfokofoQuuXh9qXr6dmnKFo4E1VC%2FCYjQJhDuQzDKEmQUXI9k4fVAw2QEA6jIYqS0BAAA%3D" alt="y equals 4 open parentheses 0.75 close parentheses to the power of 0 space equals space 4 open parentheses 1 close parentheses space equals space 4" loading="lazy"></li>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXaVNvpA0iY3384WyMoHsvLsTICsPCCruLQASKal5iWnpgAZRfnlYGkDqHS%2BnR5ci7kpRFAfokofoSvPzhAmBTEv305NucLRwBqqF2ExmgTCHRS6AKeFeXbGMD3AELEDAHLVdHtAAQAA" alt="y equals 4 open parentheses 0.75 close parentheses to the power of 1 space equals space 4 open parentheses 0.75 close parentheses space equals 3" loading="lazy"></li>
+<li><img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXaVNvpA0iY3384WyMoHsvLsTICsPCCruLQASKal5iWnpgAZRfnlYGkDqHS%2BnR5ci7kpRFAfokofoSvPzggmBTEv305NucLRwBqqF2ExmgTCHUS5wNTMCKcbkD1nhEUvQicwZOwAX0gU%2F0gBAAA%3D" alt="y equals 4 open parentheses 0.75 close parentheses squared space equals space 4 open parentheses 0.5625 close parentheses equals 2.25" loading="lazy"></li>
+<li>Now, we add the y values to the table. Then plot the ordered pairs and the horizontal asymptote.</li>
+<li>We can use decimal approximations for the table to make it easier to graph the points. We will approximate to the tenths place.</li>
+<li>
+<table style="border-collapse: collapse; width: 7.12075%; height: 158px;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9658%; text-align: center;"><strong>x</strong></td>
+<td style="width: 49.9658%; text-align: center;"><strong>y</strong></td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">-1</td>
+<td style="width: 49.9658%; text-align: center;">5.3</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">0</td>
+<td style="width: 49.9658%; text-align: center;">4</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">1</td>
+<td style="width: 49.9658%; text-align: center;">3</td>
+</tr>
+<tr>
+<td style="width: 49.9658%; text-align: center;">2</td>
+<td style="width: 49.9658%; text-align: center;">2.25</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/em789qo2nw?embed" width="500" height="500" loading="lazy"></iframe></li>
+<li>We can then use this graph to sketch the line representing the function.</li>
+<li><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/bjomclv04z?embed" width="300" height="300" loading="lazy"></iframe></li>
+</ul>
+<h4><br>Conclusion</h4>
+<p>Graphing exponential functions from equations requires an understanding of the y-intercept and horizontal asymptote, along with the ability to create a helpful table of values. Whether the function represents growth or decay, these features guide us in plotting the graph accurately. By practicing with various forms of exponential functions, you'll develop a strong grasp of how to visualize their impact graphically. This skill is invaluable for interpreting real-world scenarios modeled by exponential functions, from population dynamics to financial forecasting. Always start by identifying the key features, and then build your table of values to ensure a precise and insightful graph.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. How can you determine the y-intercept, x-intercept, and asymptote of an exponential function graph?</p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">2. What does the behavior of the graph as it approaches the asymptote indicate about the exponential function?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">3. Why are these features significant in understanding the behavior of the exponential function?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">4. How do you graph exponential functions accurately?</span></p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-size: 1rem;">5. What steps are involved in plotting points, determining the shape of the graph, and sketching the exponential function curve?</span></p>
+<p>6. How does changing the base or other parameters affect the characteristics of the graph?</p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">8.03c &middot; Graphing an Exponential Function from an Equation</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

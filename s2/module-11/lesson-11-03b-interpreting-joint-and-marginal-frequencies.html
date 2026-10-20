@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 11.03b Interpreting Joint and Marginal Frequencies</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 11</div>
+        <div style="font-size: 13px; color: #666;">Statistical Data</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">11.03b</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Statistical Data</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">11.03b</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Interpreting Joint and Marginal Frequencies</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong data-start="327" data-end="342">Association</strong>: A relationship or pattern observed between two categorical variables in a data set.</p>
+<p><strong data-start="430" data-end="460">Bivariate Categorical Data</strong>: Data that consists of two variables, each sorted into categories, and used to study relationships between them.</p>
+<p><strong data-start="576" data-end="595">Column Marginal</strong>: The total frequency for each column in a two-way frequency table.</p>
+<p><strong data-start="665" data-end="678">Frequency</strong>: The number of times a particular category or combination appears in a data set.</p>
+<p><strong data-start="762" data-end="783">Joint Frequencies</strong>: The values inside the table that represent the frequency for a specific pair of category values (one from each variable).</p>
+<p><strong data-start="909" data-end="933">Marginal Frequencies</strong>: The totals found at the edges (margins) of the table, representing the total for each row or each column.</p>
+<p><strong data-start="1043" data-end="1058">Percentages</strong>: A number expressed as a part of 100, used to show how large one quantity is compared to another.</p>
+<p><strong data-start="1159" data-end="1173">Population</strong>: The entire group of individuals or items being studied in a survey or experiment.</p>
+<p><strong data-start="1259" data-end="1274">Probability</strong>: A value between 0 and 1 that represents the likelihood of an event occurring.</p>
+<p><strong data-start="1356" data-end="1378">Relative Frequency</strong>: A frequency expressed as a fraction or decimal of the total number of data points.</p>
+<p><strong data-start="1465" data-end="1481">Row Marginal</strong>: The total frequency for each row in a two-way table.</p>
+<p><strong data-start="1538" data-end="1557">Total Frequency</strong>: The sum of all frequencies in a two-way table; the number in the bottom-right corner.</p>
+<p><strong data-start="1647" data-end="1674">Two-Way Frequency Table</strong>: A table used to display the frequency counts of two categorical variables and to analyze relationships between them.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p class="" data-start="1900" data-end="2337">In today's lesson, we will explore how to <strong data-start="1942" data-end="2009">interpret and calculate joint and marginal relative frequencies</strong> from a completed two-way frequency table. Previously, we learned how to construct a two-way frequency table using categorical data. Now we take it one step further by using the information in those tables to find <strong data-start="2223" data-end="2238">proportions</strong> (also called relative frequencies) that describe parts of the population using ratios or decimals.</p>
+<p class="" data-start="2339" data-end="2658">This helps us interpret the data more deeply—for example, by answering questions like, “What proportion of 6th graders prefer hot lunch?” or “What percentage of all respondents live in rural areas and prefer mountain vacations?” Understanding these values allows us to draw meaningful conclusions and identify patterns.</p>
+<h4 data-start="2665" data-end="2691"><span style="color: #843fa1;"><strong data-start="2668" data-end="2691"><br>Key Concepts Review</strong></span></h4>
+<ul data-start="2693" data-end="3067">
+<li class="" data-start="2693" data-end="2786">
+<p class="" data-start="2695" data-end="2786">A <strong data-start="2697" data-end="2716">joint frequency</strong> is the number of individuals in a specific combination of categories.</p>
+</li>
+<li class="" data-start="2787" data-end="2883">
+<p class="" data-start="2789" data-end="2883">A <strong data-start="2791" data-end="2813">marginal frequency</strong> is the total number of individuals in one category across all groups.</p>
+</li>
+<li class="" data-start="2884" data-end="2972">
+<p class="" data-start="2886" data-end="2972">A <strong data-start="2888" data-end="2916">joint relative frequency</strong> is the joint frequency divided by the total population.</p>
+</li>
+<li class="" data-start="2973" data-end="3067">
+<p class="" data-start="2975" data-end="3067">A <strong data-start="2977" data-end="3008">marginal relative frequency</strong> is the marginal frequency divided by the total population.</p>
+</li>
+</ul>
+<p class="" data-start="3029" data-end="3224"><br>Each cell inside the table represents a <span style="color: #2dc26b;"><strong data-start="3069" data-end="3088">joint frequency</strong></span>. The row and column totals represent <span style="color: #3598db;"><strong data-start="3126" data-end="3150">marginal frequencies</strong></span>, and the total number of all responses is called the <strong data-start="3204" data-end="3223">total frequency</strong>.</p>
+<table style="border-collapse: collapse; width: 53.9597%; height: 81px;" border="1">
+<tbody>
+<tr>
+<td style="width: 28.5181%;"></td>
+<td style="width: 23.2877%;">Category 1</td>
+<td style="width: 23.6662%;">Category 2</td>
+<td style="width: 24.4035%;">Row Totals</td>
+</tr>
+<tr>
+<td style="width: 28.5181%;">Population 1</td>
+<td style="width: 23.2877%;"><span style="color: #2dc26b;">Pop 1 in Cat 1 Total Freq</span></td>
+<td style="width: 23.6662%;"><span style="color: #2dc26b;">Pop 1 in Cat 2 Total Freq</span></td>
+<td style="width: 24.4035%;"><span style="color: #3598db;">Pop 1 Total</span></td>
+</tr>
+<tr>
+<td style="width: 28.5181%;">Population 2</td>
+<td style="width: 23.2877%;"><span style="color: #2dc26b;">Pop 2 in Cat 1 Total Freq</span></td>
+<td style="width: 23.6662%;"><span style="color: #2dc26b;">Pop 2 in Cat 2 Total Freq</span></td>
+<td style="width: 24.4035%;"><span style="color: #3598db;">Pop 2 Total</span></td>
+</tr>
+<tr>
+<td style="width: 28.5181%;">Column Totals</td>
+<td style="width: 23.2877%;"><span style="color: #3598db;">Cat 1 Total</span></td>
+<td style="width: 23.6662%;"><span style="color: #3598db;">Cat 2 Total</span></td>
+<td style="width: 24.4035%;">Total Population Surveyed</td>
+</tr>
+</tbody>
+</table>
+<h4 data-start="3029" data-end="3224"><span style="color: #e67e23;"><br><br>Example 1</span></h4>
+<p class="" data-start="3249" data-end="3497">A survey was conducted among <strong data-start="3278" data-end="3294">280 students</strong> to find out their preferred type of school lunch and their grade level. Students were asked to choose between “Hot Lunch” and “Cold Lunch,” and to indicate whether they were in <strong data-start="3472" data-end="3479">6th</strong> or <strong data-start="3483" data-end="3496">7th grade</strong>.</p>
+<ul data-start="3499" data-end="3677">
+<li class="" data-start="3499" data-end="3602">
+<p class="" data-start="3501" data-end="3602">The survey found that <strong data-start="3523" data-end="3555">95 students prefer Hot Lunch</strong>, and <strong data-start="3561" data-end="3601">120 of the students are in 7th grade</strong>.</p>
+</li>
+<li class="" data-start="3603" data-end="3677">
+<p class="" data-start="3605" data-end="3677">The survey also showed that <strong data-start="3633" data-end="3676">50 of the 7th graders prefer Cold Lunch</strong>.</p>
+</li>
+</ul>
+<table style="border-collapse: collapse; width: 54.5392%; height: 117px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;">Hot Lunch</td>
+<td style="width: 25%; height: 29px;">Cold Lunch</td>
+<td style="width: 25%; height: 29px;">Total</td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;">6th Grade</td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;"></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 25%; height: 30px;">7th Grade</td>
+<td style="width: 25%; height: 30px;"></td>
+<td style="width: 25%; height: 30px;"><span style="color: #e03e2d;"><strong>50</strong></span></td>
+<td style="width: 25%; height: 30px;"><span style="color: #e03e2d;"><strong>120</strong></span></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 25%; height: 29px;">Total</td>
+<td style="width: 25%; height: 29px;"><span style="color: #e03e2d;"><strong>95</strong></span></td>
+<td style="width: 25%; height: 29px;"></td>
+<td style="width: 25%; height: 29px;">280 students</td>
+</tr>
+</tbody>
+</table>
+<p><strong data-start="3716" data-end="3731">Question 1:</strong> What is the <strong data-start="3744" data-end="3763">joint frequency</strong> and <strong data-start="3768" data-end="3796">joint relative frequency</strong> for 7th-grade students who prefer Hot Lunch?</p>
+<p><strong data-start="3919" data-end="3934">Question 2:</strong> What is the <strong data-start="3947" data-end="3969">marginal frequency</strong> and <strong data-start="3974" data-end="4005">marginal relative frequency</strong> for students who prefer Cold Lunch?</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>We need to understand what joint frequency versus joint relative frequency is to be able to find them</li>
+<li>Frequency is the total count from the survey, the number from the chart.</li>
+<li>Relative frequency is the proportion of that count out of the total surveyed which can be expressed as a decimal or percentage.</li>
+<li>So, we need to find the number of students who are 7th graders and prefer Hot lunch first.</li>
+<li>We know that 50 prefer cold lunch, and there are 120 7th graders total.
+<ul>
+<li>Joint Frequency: 7th graders who prefer Hot Lunch \(=120-50=70\)</li>
+</ul>
+</li>
+<li>Now, we need to find the relative frequency by dividing that number by the total number of students surveyed, 280.
+<ul>
+<li>Relative Joint Frequency: \(=\frac{70}{280}=0.25=25%\)</li>
+</ul>
+</li>
+<li>Next, we will look at marginal frequency, which corresponds to row or column total counts.</li>
+<li>In this question, we want Cold lunch marginal frequency.</li>
+<li>We know that 280 total students were surveyed, and 95 prefer Hot lunches.
+<ul>
+<li>Marginal Frequency: Students who prefer Cold lunches \(=280-95=185\)</li>
+</ul>
+</li>
+<li>To find the marginal relative frequency, we will divide it by the total students surveyed.
+<ul>
+<li>Marginal Relative Frequency: \(=\frac{185}{280}=0.660714...\approx 0.661=66.1%}</li>
+</ul>
+</li>
+</ul>
+<p>Question 1 Answer: 7th graders who prefer Hot Lunch - joint frequency \(=70\) and joint relative frequency \(=25%\).</p>
+<p>Question 2 Answer: Students who prefer Cold Lunch - marginal frequency \(=185\) and marginal relative frequency \(=66.1%\)</p>
+<h4><span style="color: #e67e23;"><br><br>Example 2</span></h4>
+<p class="" data-start="4054" data-end="4239">A poll was conducted among <strong data-start="4081" data-end="4095">350 adults</strong> about their preferred vacation type and whether they live in an urban or rural area. Vacation types were categorized as “Beach” or “Mountains.”</p>
+<ul data-start="4241" data-end="4430">
+<li class="" data-start="4241" data-end="4343">
+<p class="" data-start="4243" data-end="4343">The survey found that <strong data-start="4265" data-end="4299">198 people live in urban areas</strong>, and <strong data-start="4305" data-end="4342">143 people prefer Beach vacations</strong>.</p>
+</li>
+<li class="" data-start="4344" data-end="4430">
+<p class="" data-start="4346" data-end="4430">The survey also showed that <strong data-start="4374" data-end="4429">90 of the rural residents prefer Mountain vacations</strong>.</p>
+</li>
+</ul>
+<table style="border-collapse: collapse; width: 54.5392%; height: 117px;" border="1">
+<tbody>
+<tr style="height: 29px;">
+<td style="width: 24.9378%;"></td>
+<td style="width: 24.9378%;">Beach</td>
+<td style="width: 24.9378%;">Mountains</td>
+<td style="width: 25.0631%;">Total</td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9378%;">Urban Area</td>
+<td style="width: 24.9378%;"></td>
+<td style="width: 24.9378%;"></td>
+<td style="width: 25.0631%;"><span style="color: #e03e2d;">198</span></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 24.9378%;">Rural Area</td>
+<td style="width: 24.9378%;"></td>
+<td style="width: 24.9378%;"><span style="color: #e03e2d;">90</span></td>
+<td style="width: 25.0631%;"></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 24.9378%;">Total</td>
+<td style="width: 24.9378%;"><span style="color: #e03e2d;">143</span></td>
+<td style="width: 24.9378%;"></td>
+<td style="width: 25.0631%;"><strong>350 adults</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong data-start="4766" data-end="4781">Question 1:</strong> What is the <strong data-start="4794" data-end="4813">joint frequency</strong> and <strong data-start="4818" data-end="4846">joint relative frequency</strong> for Urban residents who prefer Beach vacations?</p>
+<p class="" data-start="4973" data-end="5092"><strong data-start="4973" data-end="4988">Question 2:</strong> What is the <strong data-start="5001" data-end="5023">marginal frequency</strong> and <strong data-start="5028" data-end="5059">marginal relative frequency</strong> for residents who live in rural areas?</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>We need to understand what joint frequency versus joint relative frequency is to be able to find them</li>
+<li>Frequency is the total count from the survey, the number from the chart.</li>
+<li>Relative frequency is the proportion of that count out of the total surveyed, which can be expressed as a decimal or percentage.</li>
+<li>So, we need to find the number of urban residents who prefer Beach vacations.</li>
+<li>We will need to find how many rural residents prefer a beach vacation first. To find that, we need to know how many rural residents there are.
+<ul>
+<li>Rural residents \(=350-198=152\)</li>
+<li>Rural residents who prefer Beach vacations \(=152-90=62\)&nbsp;</li>
+<li>Joint Frequency: Urban residents who prefer Beach vacations \(=143-62=81\)</li>
+</ul>
+</li>
+<li>Now, we need to find the relative frequency by dividing that number by the total number of residents surveyed, 350.
+<ul>
+<li>Relative Joint Frequency: \(=\frac{62}{350}=0.177142....\approx 0.177=17.7%\)</li>
+</ul>
+</li>
+<li>Next, we will look at marginal frequency, which corresponds to row or column total counts.</li>
+<li>In this question, we want rural residents marginal frequency.</li>
+<li>We know that 350total residents were surveyed, and 198 live in urban areas.
+<ul>
+<li>Marginal Frequency: Residents who live in Rural areas \(=350-198=152\)</li>
+</ul>
+</li>
+<li>To find the marginal relative frequency, we will divide it by the total residents surveyed.
+<ul>
+<li>Marginal Relative Frequency: \(=\frac{152}{350}=0.43428...\approx 0.434=43.4%}</li>
+</ul>
+</li>
+</ul>
+<p>Question 1 Answer: Urban residents who prefer Beach vacations - joint frequency \(=62\) and joint relative frequency \(=17.7%\).</p>
+<p>Question 2 Answer: Residents who live in Rural areas - marginal frequency \(=152\) and marginal relative frequency \(=43.4%\)</p>
+<h4 data-start="5193" data-end="5213"><strong data-start="5197" data-end="5211"><br><br>Conclusion</strong></h4>
+<p class="" data-start="5214" data-end="5700">Using a two-way frequency table, we can go beyond raw counts by calculating <strong data-start="5290" data-end="5314">relative frequencies</strong> to understand the proportion of the population that fits within certain categories. By examining <strong data-start="5412" data-end="5442">joint relative frequencies</strong>, we see how two categories overlap, while <strong data-start="5485" data-end="5518">marginal relative frequencies</strong> show how one category compares to the total. These values are essential for interpreting trends and associations in survey data and help us make informed comparisons between groups.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. What are joint and marginal frequencies, and how do they differ?</p>
+<p><span style="font-size: 1rem;">2. How can joint and marginal frequencies be calculated from a two-way frequency table?</span></p>
+<p><span style="font-size: 1rem;">3. What insights can we gain by analyzing joint and marginal frequencies?</span></p>
+<p><span style="font-size: 1rem;">4. How can joint and marginal frequencies help identify associations between variables?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">11.03b &middot; Interpreting Joint and Marginal Frequencies</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

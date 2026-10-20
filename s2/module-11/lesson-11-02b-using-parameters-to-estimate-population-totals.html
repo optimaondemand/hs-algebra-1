@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 11.02b Using Parameters to Estimate Population Totals</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 11</div>
+        <div style="font-size: 13px; color: #666;">Statistical Data</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">11.02b</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Statistical Data</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">11.02b</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Using Parameters to Estimate Population Totals</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong>Confidence Interval</strong>: A range of values that is likely to contain the true population parameter. It is calculated from the sample data and gives an estimate of where the population parameter lies.</p>
+<p><strong>Confidence Level</strong>: The probability that the confidence interval contains the true population parameter. Common confidence levels are 90%, 95%, and 99%.</p>
+<p><strong>Estimation</strong>: The process of inferring the value of a population parameter based on sample data.</p>
+<p><strong>Margin of Error</strong>: The maximum expected difference between the sample statistic (like the mean or proportion) and the actual population parameter. It indicates the range within which the true value is expected to fall.</p>
+<p><strong>Parameter</strong>: A numerical characteristic of a population, such as a mean or proportion, that summarizes some aspect of the population.</p>
+<p><strong>Population</strong>: The entire group of individuals or items that you want to learn about in a study.</p>
+<p><strong>Population Mean</strong>: The average value of a numerical characteristic for the entire population.</p>
+<p><strong>Population Percentage</strong>: The proportion of the population that has a particular characteristic, expressed as a percentage.</p>
+<p><strong>Population Proportion:</strong> The fraction or decimal representation of the entire population that possesses a specific characteristic, found by dividing the number of individuals with the characteristic by the total population.</p>
+<p><strong>Population Total</strong>: The total number of individuals or items in the population.</p>
+<p><strong>Random Sampling</strong>: A method of selecting a sample from a population in such a way that every possible sample has an equal chance of being chosen.</p>
+<p><strong>Sample</strong>: A subset of individuals or items selected from the larger population, used to make inferences about the population.</p>
+<p><strong>Sample Proportion</strong>: The proportion of the sample that has a particular characteristic. It is calculated by dividing the number of items with the characteristic by the total sample size.</p>
+<p><strong>Sample Size</strong>: The number of individuals or items included in the sample.</p>
+<p><strong>Sample Survey</strong>: A study that collects data from a sample of the population to learn about the entire population.</p>
+<p><strong>Statistical Inference</strong>: The process of using data from a sample to make estimates or test hypotheses about the population.</p>
+<p><strong>Survey Data</strong>: The information collected from individuals in a sample survey.</p>
+<p><strong>Variability</strong>: The extent to which data points in a statistical distribution or data set differ from each other. High variability means data points are spread out; low variability means they are close together.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p>In today's lesson, we will explore how to use the margin of error and population parameters to find population totals. Building on our previous lesson on estimating population means and percentages, we will now focus on calculating the actual number of individuals in a population based on given survey data. By the end of this lesson, you will be able to determine the population totals for specific parameters using the margin of error, sample proportions, and means.</p>
+<h4><br><span style="color: #843fa1;"><strong>F</strong><strong>inding Population Totals from Population Percentages</strong></span></h4>
+<p>When given a population percentage, margin of error, and total population, you can estimate the actual number of individuals with the characteristics in the entire population. Here’s how:</p>
+<ol>
+<li>
+<p><strong>Determine the Population Proportion</strong>:</p>
+<ul>
+<li><strong>Formula</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAAG2Q3QqDMAyFX2U42KVRdjM3DXg%2FX2FQpFPB%2FlDL6uMv2hLG8Cb5epKTpq2V8ONpVbNemmz03t4BQgh5uObGDVBW1Q06atlD98ywVuYjHaUJbQ0UScAXkcEtxJrBJirq7URPyZmwW5ZkmVAwKSbLNDNJvuRyXtvikeb%2BNksmx9QfVDWTP1hj%2BHdA2lpjWRR00psU3wPbr%2BEX1P1eyDwBAAA%3D" alt="p with hat on top equals fraction numerator s a m p l e space p e r c e n t a g e over denominator 100 end fraction" loading="lazy"><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord"><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist-s">​</span></span></span></span></span></span></span></span></span></li>
+</ul>
+</li>
+<li>
+<p><strong>Identify the Margin of Error</strong>:</p>
+<ul>
+<li><strong>Formula</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXauNvpA0iY3384WyMoHstKKEpOBVFF%2BOVhBLlRBpl0inFUEZ6XDWZlwVh7cSDXlCkcDa6i5mXb5cCVpuJSkYrEDwcpHF9OHOjPPztDAAMjLAwlBPKAPCg07ABJ6eGoUAQAA" alt="E equals fraction numerator m a r g i n space o f space e r r o r over denominator 100 end fraction" loading="lazy"><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord"><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist-s">​</span></span></span></span></span></span></span></span></span></li>
+</ul>
+</li>
+<li>
+<p><strong>Calculate the Lower and Upper Bounds of the Population Proportion</strong>:</p>
+<ul>
+<li><strong>Lower Bound</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BWWpRUAq067ARh9IAgXs4oCsfDsQAZHLt9OFiADlXSGq9EEW2QEAlWcXIm8AAAA%3D" alt="p with hat on top minus E" loading="lazy"></li>
+<li><strong>Upper Bound</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BWWpRUAq067ARh9IAgXs4oCsfDsQAZHLt9OGiADlXSGq9EEW2QEA7xXdz28AAAA%3D" alt="p with hat on top plus E" loading="lazy"></li>
+</ul>
+</li>
+<li>
+<p><strong>Identify the Total Population</strong>:</p>
+<ul>
+<li>This is the entire group you are studying.</li>
+<li><strong>Example</strong>: If the total population is 10,000, then N<span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mrel">=</span></span><span class="base"><span class="mord">10</span><span class="mpunct">,</span><span class="mord">000</span></span></span></span></span>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Estimate the Actual Number for the Entire Population</strong>:</p>
+<ul>
+<li>Multiply the lower and upper bounds of the population proportion by the total population.</li>
+<li><strong>Lower Estimate</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXY%2BNvpAEsTKh7PK4axUOKsIysq3U1OucDSwBnLzwRJOWAwohbPy4KwU7AaAuS7mKFxk4%2F0g2vRBfrMDABizoQfiAAAA" alt="L o w e r space B o u n d space cross times space N" loading="lazy"></li>
+<li><strong>Upper Estimate</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXahNvpAEsQqwMJKhbOKoKx8OzXlCkcDayA3HyzhBFeSD2eVwll5cFYKdgPAXBdzFC6y8X4Qbfogv9kBANvomTfiAAAA" alt="U p p e r space B o u n d space cross times space N" loading="lazy"></li>
+</ul>
+</li>
+</ol>
+<h4><br><span style="color: #e67e23;">Example 1: Population Proportion</span></h4>
+<p><span>A survey was conducted to find the percentage of people who prefer online shopping. </span></p>
+<p><span>The survey sampled 1,000 people and found that 65% of respondents prefer online shopping. The margin of error is ±3%.</span></p>
+<p><span>Given that the total population is 10,000 people, use the margin of error to estimate the range of the total number of people in the entire population who prefer online shopping.</span></p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li><strong>Step-by-Step Solution</strong>:
+<ul>
+<li>Population Proportion (<img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BWWpRUAq067ARh9IAgXs4oCsfDsQAZbTBxlqBwCd6ScsWwAAAA%3D%3D" alt="p with hat on top" loading="lazy"><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist-s">​): <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5aUWJyUAqz87M1EYfSIGYhgYGELY%2BTDrfzhbIyQfLQuWAPD24GEyzPsgBdgD87Z8WhwAAAA%3D%3D" alt="65 over 100 equals 0.65" loading="lazy"></span></span></span></span></span></span></span></span></li>
+<li>Margin of Error (E): <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXauNvpA0iY3384WyMoHstKKEpOBVJ6dMVAgD8wyNDCAsPVhsgjleXZQOSBPDyFmDNMAtMsOAD5A4d%2BaAAAA" alt="E equals 3 over 100 equals 0.03" loading="lazy"></li>
+<li>Lower Bound: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXYGNvpA0iY3304PyMoHi5mZwgV14YLYFBoYwwVt8So0M4II6oOcaAcAgTKXxakAAAA%3D" alt="0.65 minus 0.03 equals 0.62" loading="lazy"></li>
+<li>Upper Bound: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXYGNvpA0iY3304PyMoHi5mZwgW14YLYFBoYwwVt8So0s4AI6oOcaAcAoZ%2FMxqkAAAA%3D" alt="0.65 plus 0.03 equals 0.68" loading="lazy"></li>
+<li>Total Population (N): 10,000</li>
+<li>Lower Estimate: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXYGNvpA0iY3304PyMoHi5kZwQXVlCtczK3hMoYGQACXtEXogIvpwMWMYCr1Qe6yAwAV6dLungAAAA%3D%3D" alt="0.62 cross times 10000 equals 6 comma 200" loading="lazy"></li>
+<li>Upper Estimate: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXYGNvpA0iY3304PyMoHi5lZwAXVlCtczK3hMoYGQACXtEXogIvpwMUsYCr1Qe6yAwAm2VSAngAAAA%3D%3D" alt="0.68 cross times 10000 equals 6 comma 800" loading="lazy"></li>
+</ul>
+</li>
+</ul>
+<p><strong>Conclusion</strong>: The estimated number of people who prefer online shopping in the entire population is between 6,200 and 6,800.</p>
+<h4><br><br><span style="color: #843fa1;"><strong>Finding Population Totals from Population Means</strong></span></h4>
+<p>When given a population mean, margin of error, and total population, you can estimate the total sum of the characteristics of the entire population. Here’s how:</p>
+<ol>
+<li>
+<p><strong>Determine the Population Mean</strong>:</p>
+<ul>
+<li><strong>Formula</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BWWpRUAq067CRh9IAgXs1JQrHN2sgdx8OxABUZBvZwsRASoqhirNtEuEs3LhrAI4KwfOSkUx3MAablQuhhJkQ%2FMgLH2Qt%2BwAFwCte90AAAA%3D" alt="x with bar on top equals s a m p l e space m e a n" loading="lazy"></li>
+</ul>
+</li>
+<li>
+<p><strong>Identify the Margin of Error</strong>:</p>
+<ul>
+<li><strong>Formula</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXauNvpA0iY3384WyMoHi%2BVCxTLtEuGsIjgrHc7KhLPy4KaoKVc4GljDjcqHK0nDpSQVix0IVj66mD7Il3YASAdqV%2BwAAAA%3D" alt="E equals m a r g i n space o f space e r r o r" loading="lazy"></li>
+</ul>
+</li>
+<li>
+<p><strong>Calculate the Lower and Upper Bounds of the Population Mean</strong>:</p>
+<ul>
+<li><strong>Lower Bound: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BWWpRUAq067CRh9IAgXs1JQrHN2sgdx8OxABUZBvpwsRASpyhSjVB9lmBwCJR7xtdAAAAA%3D%3D" alt="x with bar on top minus E" loading="lazy"></strong></li>
+<li><strong>Upper Bound: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BWWpRUAq067CRh9IAgXs1JQrHN2sgdx8OxABUZBvpw0RASpyhSjVB9lmBwDzNXaAdAAAAA%3D%3D" alt="x with bar on top plus E" loading="lazy"></strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Identify the Total Population</strong>:</p>
+<ul>
+<li>This is the entire group you are studying.</li>
+<li><strong>Example</strong>: If the total population is 5,000, then N<span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mrel">=</span></span><span class="base"><span class="mord">5</span><span class="mpunct">,</span><span class="mord">000</span></span></span></span></span>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Estimate the Total Number for the Entire Population</strong>:</p>
+<ul>
+<li>Multiply the lower and upper bounds of the population mean by the total population.</li>
+<li><strong>Lower Estimate</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXY%2BNvpAEsTKh7PK4axUOKsIysq3U1OucDSwBnLzwRJOWAwohbPy4KwU7AaAuS7mKFxk4%2F0g2vRBfrMDABizoQfiAAAA" alt="L o w e r space B o u n d space cross times space N" loading="lazy"></li>
+<li><strong>Upper Estimate</strong>: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5mXahNvpAEsQqwMJKhbOKoKx8OzXlCkcDayA3HyzhBFeSD2eVwll5cFYKdgPAXBdzFC6y8X4Qbfogv9kBANvomTfiAAAA" alt="U p p e r space B o u n d space cross times space N" loading="lazy"></li>
+</ul>
+</li>
+</ol>
+<h4><br><span style="color: #e67e23;">Example 2: Population Mean</span></h4>
+<p><span>A survey was conducted to determine the average number of hours students study per week. </span></p>
+<p><span>The survey sampled 150 students and found that the average number of study hours was 10 hours per week. The margin of error is ±1.5 hours.</span></p>
+<p><span>Given that the total population of students is 6,800 people, use the margin of error to estimate the actual total number of study hours for the entire population. Show your calculations.</span></p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li><strong>Step-by-Step Solution</strong>:
+<ul>
+<li>Population Mean (<img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5%2BWWpRUAq067CRh9IAgXs1JQrHN2sgdx8OxABVqAPMtkOABmAY8pgAAAA" alt="x with bar on top" loading="lazy">): 10 hours</li>
+<li>Margin of Error (E): 1.5 hours</li>
+<li>Lower Bound: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXaGBjb6QMomN99OF8jKhwjCxfTgYqZwMVu4mAVudfogx9gBAH6O6JmTAAAA" alt="10 minus 1.5 equals 8.5" loading="lazy"> hours</li>
+<li>Upper Bound: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXaGBjb6QMomN99OG8jKhwjCxfTgYqZwMVuEOjwK9UGusQMAe6n135QAAAA%3D" alt="10 plus 1.5 equals 11.5" loading="lazy"> hours</li>
+<li>Total Population (N): 6,8000</li>
+<li>Lower Estimate: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXYWNvpA0iY3304PyMoHi5nCxdSUK1zMreESZhYGBnA5W4R6c7igDlwQrlQf5Cw7AD8iHiedAAAA" alt="8.5 cross times 6800 equals 57 comma 800" loading="lazy"> hours</li>
+<li>Upper Estimate: <img style="width: auto; height: auto;" src="https://www.wiris.net/instructure.com/canvas/editor/image?mmlgz=H4sIAAAAAAAAALPJTSzJUKjIzckrtlXKKCkpsNLXLy8v1ys31ssvStc3tLS00PcFKgETvj5Kdja5eXaGhjb6QMomN99OD8jKBwuawsXUlCtczK3hEmYWBgZwOVu4sLkFXFAHLmgEU6oPcpcdABu5hKWeAAAA" alt="11.5 cross times 6800 equals 78 comma 200" loading="lazy"> hours</li>
+</ul>
+</li>
+</ul>
+<p><strong>Conclusion</strong>: The estimated total number of hours students study per week in the entire population is between 57,800 and 78,200 hours.</p>
+<h4><br><br><strong>Conclusion</strong></h4>
+<p>In this lesson, we expanded our understanding of margin of error and population parameters to include calculating population totals. By following the outlined steps, you can accurately estimate the total number of individuals or the total sum of a characteristic in a population. These skills are essential for interpreting survey data and making informed decisions based on statistical estimates.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. What is the margin of error, and why is it important in statistical analysis?</p>
+<p>2. How can the margin of error be used to assess the accuracy of poll results?</p>
+<p>3. In what ways can understanding the margin of error improve decision-making in real-world situations?</p>
+<p>4. How can we use a given margin of error and population percentage to estimate the total population?</p>
+<p>5. What factors influence the accuracy of population total estimates when considering the margin of error?</p>
+<p>6. Why is it important to understand the margin of error when interpreting population total estimates?</p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">11.02b &middot; Using Parameters to Estimate Population Totals</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

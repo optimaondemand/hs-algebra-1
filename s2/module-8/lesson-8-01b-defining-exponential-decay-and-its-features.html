@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 8.01b Defining Exponential Decay and its Features</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q3 &middot; Module 8</div>
+        <div style="font-size: 13px; color: #666;">Exponential Functions</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">8.01b</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Exponential Functions</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">8.01b</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Defining Exponential Decay and its Features</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong>Asymptote: </strong>A line that a graph approaches but never intersects or crosses, representing a limit or boundary.</p>
+<p><strong>Decay factor: </strong>The constant proportion by which a quantity decreases during each unit of time or other equal intervals.</p>
+<p><strong>Decay rate: </strong>The rate at which an exponential function decays, found by subtracting the decay factor (b) from 1.</p>
+<p><strong>Equation: </strong>A mathematical statement that equates two expressions or quantities.</p>
+<p><strong>Exponential decay: </strong>A type of decay in which a quantity decreases rapidly over time, where the rate of decrease is proportional to the current value of the quantity.</p>
+<p><strong>Exponential function: </strong>A function of the form \(f(x)=ab^x\), where \(a\) is the initial value or starting amount, \(b\) is the base representing the growth or decay factor, and \(x\) is the exponent.</p>
+<p><strong>Exponential growth: </strong>A type of growth in which a quantity increases rapidly over time, where the rate of increase is proportional to the current value of the quantity.</p>
+<p><strong>Graph: </strong>A visual representation of data or a mathematical function, typically shown on a coordinate plane with x- and y-axes.</p>
+<p><strong>Growth factor: </strong>The constant proportion by which a quantity increases during each unit of time or other equal intervals.</p>
+<p><strong>Initial value: </strong>The starting value or value at the beginning of a process or function.</p>
+<p><strong>Half-Life: </strong>The time it takes for half of a quantity, such as a radioactive isotope or a drug concentration, to decay or decrease by half of its initial value.</p>
+<p><strong>Population Decline: </strong>The reduction in the number of individuals within a population over time.</p>
+<p><strong>Radioactive Decay: </strong>The spontaneous breakdown of atomic nuclei over time, resulting in the emission of radiation particles.</p>
+<p><strong>Time Elapsed: </strong>The duration or amount of time that has passed since the initial measurement.</p>
+<p><strong>Y-intercept: </strong>The point where a graph intersects the y-axis, where the x-coordinate is zero.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p>In the last lesson, we learned about exponential growth functions and their features. In this lesson, we will explore exponential decay functions and their features.</p>
+<p><span>In this lesson, we'll explore exponential decay functions, contrasting them with exponential growth, and learn how to identify exponential decay from both graphs and equations. Exponential decay describes a process where quantities decrease over time at a rate proportional to their current value.</span></p>
+<p><br>Before diving into exponential decay functions, let's briefly recap the key features of exponential growth functions. Exponential growth occurs when a quantity increases at a constant percentage rate, usually over time. It is often represented by the equation \(y=ab^x\), where 'a' is the initial value, 'b' is the base (also called "the growth factor"), and 'x' is the input variable (since this variable is often time you are likely to see this function in the form \(y=ab^x\)).</p>
+<p>Now, let's explore the fascinating world of exponential decay functions, where quantities decrease over time at a constant percentage rate. To gain a better understanding of exponential decay functions, watch the following video. It provides an overview of exponential decay functions and their applications, which will complement the information in this lesson.</p>
+<p>(myrec)</p>
+<h4><span style="color: #843fa1;"><strong>What is an Exponential Decay Function?</strong></span></h4>
+<p>An exponential decay function models a decrease where the rate of change reduces exponentially. The general form of an exponential function is \(y=a(b)^x\), where:</p>
+<ul>
+<li><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">\(y\) </span></span></span></span></span>is the final amount,</li>
+<li><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">\(a\) </span></span></span></span></span>is the initial amount when \(x=0\),</li>
+<li><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">\(b\) </span></span></span></span></span>is the base of the exponential function, representing the decay factor per unit decrease in \(x\),</li>
+<li><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">\(x\) </span></span></span></span></span>represents time or another independent variable.</li>
+</ul>
+<p>For a function to represent exponential decay, \(0&lt;b&lt;1\). This ensures that as <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span></span> increases, <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">y</span></span></span></span></span> decreases at a decelerating rate.</p>
+<p>One more important thing about the base in exponential decay functions: while the b value that is strictly between 0 and 1 is called "the decay factor," you will often come across references to "the decay rate." The decay factor and decay rate are NOT the same thing. The decay factor is the base that is multiplied by itself x (or t) number of times. But the decay rate is difference value of 1 – b (that is, 1 minus the decay factor).</p>
+<p>For example, an exponential function with a <span style="text-decoration: underline;">decay factor</span> (b) of \(75%\) (\(0.75\)) has a <span style="text-decoration: underline;">decay rate</span> of \(25%\) (\(1-0.75=0.25\)). The initial value decays at a rate of \(25%\) per input x. Again, compare this to exponential growth functions.</p>
+<p>Finally, x is the input variable. Since when dealing with decay functions the input variable is often time elapsed, you will also commonly see the decay function written as \(y=ab^t\).</p>
+<p><br>Let's look at a few examples.</p>
+<h4><span style="color: #e67e23;">Example</span></h4>
+<p>Does the function \(y=10(0.8)^t\), where 't' represents time in years, represent exponential decay?</p>
+<p>Here, the initial value (a) is 10, and the decay rate is 0.2 (or 20%). Since this function has a decay rate of 20% it has a decay factor of 80% (0.8). We can evaluate this function for various values of t to observe the decay process.</p>
+<p><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/xe3lf8um6c?embed" width="500" height="500" loading="lazy"></iframe></p>
+<ul>
+<li>For \(t=0\), \(y=10(0.8)^0=10\) (initial value, no decay).</li>
+<li>For \(t=1\), \(y=10(0.8)^1=8\) (20% decay).</li>
+<li>For \(t=2\), \(y=10(0.8)^2=6.4\) (36% decay).</li>
+</ul>
+<p><br>Another example is the function \(y=500(0.5)^t\), where 't' represents time in hours. Here, the initial value (a) is 500, and the decay rate is 0.5 (or 50%). We can calculate the values of 'y' for different 't' to understand the decay process.</p>
+<ul>
+<li>For \(t=0\), \(y=500(0.5)^0=500\) (initial value, no decay).</li>
+<li>For \(t=1\), \(y=500(0.5)^1=250\) (50% decay).</li>
+<li>For \(t=2\), \(y=500(0.5)^2=125\) (75% decay).</li>
+</ul>
+<h4><br><span style="color: #843fa1;"><strong>Determining Exponential Decay from Equations</strong></span></h4>
+<p>To confirm if an equation represents exponential decay, verify the following:</p>
+<ol>
+<li><strong>Equation Form:</strong> The equation should be in the form \(y=a(b)^x\).</li>
+<li><strong>Base <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">b</span></span></span></span></span>:</strong> The base \(b\) must be between 0 and 1 (\(0&lt;b&lt;1\)). This is critical for modeling decay.</li>
+<li><strong>Initial Amount <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">a</span></span></span></span></span>:</strong> The initial amount a&nbsp;should be positive, indicating the starting point is above zero.</li>
+</ol>
+<h4><br><span style="color: #e67e23;">Example 1: Exponential Decay Function</span></h4>
+<p>The given function represents an exponential function. Does the function represent exponential decay?</p>
+<p><strong>Given Function: </strong>\(y=100(0.5)^x\)</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p><strong>Analysis:</strong></p>
+<ul>
+<li><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">\(a=100\)</span></span></span></span></span>, the initial amount.</li>
+<li><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">\(b=0.5\)</span></span></span></span></span>, which is between 0 and 1.</li>
+</ul>
+<p>This function represents exponential decay because the base \(b=0.5\)&nbsp;causes the value of <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">y</span></span></span></span></span> to halve as <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span></span> increases by 1. The decay rate is constant, indicating that the quantity decreases over time at a rate proportional to its current value.</p>
+<h4><br><span style="color: #843fa1;"><strong>Identifying Exponential Decay on Graphs</strong></span></h4>
+<p>An exponential decay function on a graph will have the following features:</p>
+<ol>
+<li><strong>Downward Slope:</strong> The graph slopes downwards from left to right, indicating a decrease in <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">y</span></span></span></span></span> as <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span></span> increases.</li>
+<li><strong>Decreasing Rate of Change:</strong> The graph shows a decelerating rate of decrease; the curve flattens as you move from left to right.</li>
+<li><strong>Y-Intercept:</strong> The graph crosses the y-axis at \(y=a\), where <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">a</span></span></span></span></span> is the initial amount, and it should be positive (\(a&gt;0\)).</li>
+<li><strong>Asymptote:</strong> There is a horizontal asymptote, typically along the x-axis (\(y=0\)), which the graph approaches but never crosses as <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span></span> increases.</li>
+</ol>
+<h4><br><span style="color: #e67e23;">Example 2</span></h4>
+<p>The graph shown represents an exponential function. Does the function represent exponential decay?</p>
+<p><iframe style="border: 1px solid #ccc;" title="embedded content" src="https://www.desmos.com/calculator/ifgr7pouvp?embed" width="500" height="500" loading="lazy"></iframe></p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<p><strong>Explanation:</strong></p>
+<ul>
+<li>The graph shows a downward slope from left to right.</li>
+<li>As <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span></span> approaches infinity, <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">y</span></span></span></span></span> approaches 0 but never reaches it, indicating a horizontal asymptote at \(y=0\).</li>
+</ul>
+<p>This graph represents exponential decay. The end behavior, where <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">y</span></span></span></span></span> decreases as <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span></span> increases and approaches zero, confirms that the function models a process of decreasing over time at a rate proportional to the current value.</p>
+<h4><br>Conclusion</h4>
+<p>Understanding the difference between exponential growth and decay is crucial in Algebra 1. Exponential decay functions model processes where quantities decrease over time at rates proportional to their current values. By examining the base of the exponential function in an equation and the slope and end behavior of its graph, students can effectively identify and interpret exponential decay in various contexts. This knowledge is invaluable for analyzing real-world phenomena and mathematical problems alike.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <ol style="list-style-type: decimal;">
+<li>
+<p>What is exponential decay and what are its essential features?&nbsp;</p>
+</li>
+<li>
+<p>What are the important properties of exponential decay functions, including the initial value, decay factor, and asymptote?&nbsp;</p>
+</li>
+<li>
+<p>How can exponential decay be differentiated from other types of decay?</p>
+</li>
+</ol>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 3 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">8.01b &middot; Defining Exponential Decay and its Features</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

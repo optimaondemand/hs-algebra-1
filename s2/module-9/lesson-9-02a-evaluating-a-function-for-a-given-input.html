@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 9.02a Evaluating a Function for a Given Input</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 9</div>
+        <div style="font-size: 13px; color: #666;">Analyzing Functions</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">9.02a</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Analyzing Functions</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">9.02a</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Evaluating a Function for a Given Input</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong>Dependent:&nbsp;</strong><span>The </span><strong>dependent</strong><span> variable is the outcome or result in a function or equation. It's what you're solving for, usually represented as </span><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">y</span></span></span></span></span><span>, and it depends on the value of the independent variable.</span></p>
+<p><strong>Domain:&nbsp;</strong><span>The </span><strong>domain</strong><span> is the set of all possible input values (usually </span><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">x</span></span></span></span></span><span> values) that a function can accept without causing any mathematical problems, like division by zero or taking the square root of a negative number.</span></p>
+<p><strong>Evaluate:&nbsp;</strong><span>To </span><strong>evaluate</strong><span> a function means to find its output value for a given input value. This involves substituting the input value into the function and calculating the result.</span></p>
+<p><strong>Function Notation:&nbsp;</strong><strong>Function notation</strong><span> is a way to name and represent functions, using symbols like \(f(x)\)&nbsp;</span><span>instead of \(y\)</span><span>. The letter \(f\)</span><span> is the name of the function, and \(x\)</span><span> represents the input. It provides a clear way to indicate that the value of the function depends on the input value \(x\)</span><span>.</span></p>
+<p><strong>Independent:&nbsp;</strong><span>The </span><strong>independent</strong><span> variable is the input or cause in a function or equation. It's what you choose or vary to see how it affects the dependent variable, usually represented as \(x\)</span><span>.</span></p>
+<p><strong>Input:&nbsp;</strong><span>The </span><strong>input</strong><span> is the value you feed into a function. It's the independent variable that you're testing to see its effect on the output.</span></p>
+<p><strong>Input-Output Relationship:&nbsp;</strong><span>The </span><strong>input-output relationship</strong><span> is the core concept of functions, describing how each input value is connected to an output value. It defines the rule or process the function uses to turn the input into the output.</span></p>
+<p><strong>Output:&nbsp;</strong><span>The </span><strong>output</strong><span> is the result of the function after the input has been processed according to the function's rule. It's the dependent variable that shows how the input was transformed.</span></p>
+<p><strong>Range:&nbsp;</strong><span>The </span><strong>range</strong><span> is the set of all possible output values (usually </span><span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="mord mathnormal">y</span></span></span></span></span><span> values) that a function can produce. It depends on the function's domain and how the function transforms the domain into outputs.</span></p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p><span>In today's lesson, we will explore evaluating a function for a given input, focusing on function notation, inputs, and outputs, and how these elements are interconnected within the framework of various types of functions. Understanding these concepts is crucial as they form the backbone of not only algebra but also of more advanced mathematical topics you will encounter. Function notation allows us to represent relationships between variables algebraically, where inputs are transformed into outputs through a specific rule. Let's dive into how to evaluate functions using this notation across different types of functions, including linear, quadratic, exponential, and absolute value functions.</span></p>
+<p><span><br>Let's begin with reviewing what function notation is and what inputs versus outputs are. Then we will watch a short video on evaluating a function.</span></p>
+<h4><span style="color: #843fa1;"><strong>Function Notation</strong></span></h4>
+<ul>
+<li>Function notation is a concise way to define a relationship between two variables. It is written as \(f(x)\), where \(f\) is the name of the function and \(x\) is the input value.</li>
+<li>This notation helps us easily identify which variable is the input and which expression represents the transformation of that input.</li>
+</ul>
+<h4><span style="color: #843fa1;"><strong>Inputs and Outputs</strong></span></h4>
+<ul>
+<li>The <strong>input</strong> is the value we substitute into the function, often represented by \(x\).</li>
+<li>The <strong>output</strong> is the result of the function after the input value has been substituted into the expression, often represented by \(f(x)\).</li>
+</ul>
+<p>(myrec)</p>
+<h4><br><span style="color: #843fa1;"><strong>Evaluating a Function for a Given Input</strong></span></h4>
+<ul>
+<li>To evaluate a function for a given input means to find the output value when a specific input value is substituted into the function.</li>
+</ul>
+<h4><br><span style="color: #e67e23;">Example 1</span></h4>
+<p>Evaluate the given function for \(f(4)\).</p>
+<p>\(f(x)=-5.7x+2\)</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>To evaluate the function, we will substitute 4 in for \(x\).
+<ul>
+<li>\(f(4)=-5.7(4)+2\)</li>
+<li>It is always best practice to use ( ) when substituting a value in.</li>
+<li>Then we evaluate the right side using the order of operations to find what \(f(4)\)&nbsp;equals.</li>
+<li>\(f(4)=-5.7(4)+2 \implies f(4)=-22.8+2 \implies f(4)=-20.8\)</li>
+</ul>
+</li>
+</ul>
+<p>We find that \(f(4)=-20.8\).</p>
+<h4><br><span style="color: #e67e23;">Example 2</span></h4>
+<p>Evaluate the given function for \(f(-2.1)\).</p>
+<p>\(f(x)=2x^2-5x+6.7\)</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>To evaluate the function, we will substitute \(-2.1\) for \(x\).
+<ul>
+<li>\(f(-2.1)=2(-2.1)^2-5(-2.1)+6.7\)</li>
+<li>It is always best practice to use ( ) when substituting a value in.</li>
+<li>Then we evaluate the right side using the order of operations to find what \(f(-2.1)\)&nbsp;equals.</li>
+<li>In this example, we begin with the power of 2. Then proceed to the multiplication. Last addition and subtraction.</li>
+<li>\(f(-2.1)=2(-2.1)^2-5(-2.1)+6.7 \implies f(-2.1)=2(4.41)-5(-2.1)+6.7 \implies f(-2.1)=8.82+10.5+6.7 \implies f(-2.1)=26.02\)</li>
+</ul>
+</li>
+</ul>
+<p>We find that \(f(-2.1)=26.02\).</p>
+<h4><br><span style="color: #e67e23;">Example 3</span></h4>
+<p>Evaluate the given function for \(f(3)\).</p>
+<p>\(f(x)=32(1-0.62)^x\)</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>To evaluate the function, we will substitute \(3\) for \(x\).
+<ul>
+<li>\(f(3)=32(1-0.62)^3\)</li>
+<li>It is always best practice to use ( ) when substituting a value in.</li>
+<li>Then we evaluate the right side using the order of operations to find what \(f(3)\)&nbsp;equals.</li>
+<li>We can begin by simplifying the subtraction inside the ( ) to \(0.38\). Then we can apply the power. Ending with the multiplication.</li>
+<li>\(f(3)=32(1-0.62)^3 \implies f(3)=32(0.38)^3 \implies f(3)=32(0.054872) \implies f(3)=1.755904 \implies f(3)\approx 1.76\)</li>
+<li>This function could give us a decimal that goes on. So, we can round it off. This one is rounded to the nearest hundredths.</li>
+</ul>
+</li>
+</ul>
+<p>We find that \(f(3)\approx 1.76\).</p>
+<h4><br><span style="color: #e67e23;">Example 4</span></h4>
+<p>Evaluate the given function for \(f(3.62)\).</p>
+<p>\(f(x)=3|x-8.14|+5\)</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>To evaluate the function, we will substitute \(3.62\) in for \(x\).
+<ul>
+<li>\(f(3.62)=3|3.62-8.14|+5\)</li>
+<li>It is always best practice to use ( ) when substituting a value in.</li>
+<li>Then we evaluate the right side using the order of operations.</li>
+<li>Work inside the absolute value first like a parenthesis. Once you take the absolute value, it will turn into ( ) representing multiplication. Then multiply and finally add the 5.</li>
+<li>\(f(3.62)=3|3.62-8.14|+5 \implies f(3.62)=3|-4.52|+5 \implies f(3.62)=3(4.52)+5 \implies f(3.62)=13.56+5 \implies f(3.62)=18.56\)</li>
+</ul>
+</li>
+</ul>
+<p>We find that \(f(3.62)=18.56\).</p>
+<h4><br>Conclusion</h4>
+<p>Evaluating a function for a given input is a fundamental skill in algebra that allows you to understand how inputs are transformed into outputs through the function's specific rule. Whether dealing with linear, quadratic, exponential, or absolute value functions, the process involves substituting the input value into the function and simplifying it to find the output. By mastering this process, you enhance your problem-solving skills and deepen your understanding of how functions model real-world situations and mathematical relationships. Practice with a variety of functions and inputs will solidify your understanding and prepare you for more complex challenges ahead.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. How do you evaluate a function at a given input, and what steps are involved in this process?</p>
+<p>2. Why is it important to consider the domain of a function when evaluating it for a specific input?</p>
+<p>3. How can technology be used to simplify the process of evaluating functions, especially for complex functions or inputs?</p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">9.02a &middot; Evaluating a Function for a Given Input</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

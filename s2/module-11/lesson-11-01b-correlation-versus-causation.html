@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 11.01b Correlation versus Causation</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 11</div>
+        <div style="font-size: 13px; color: #666;">Statistical Data</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">11.01b</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Statistical Data</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">11.01b</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Correlation versus Causation</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p><strong data-start="360" data-end="375">Association</strong>: A relationship or connection between two variables where one may influence or predict the other.</p>
+<p><strong data-start="476" data-end="484">Bias</strong>: A systematic error or unfair influence that affects the accuracy of data collection or interpretation.</p>
+<p><strong data-start="591" data-end="609">Bivariate Data</strong>: Data that involves two different variables that can be analyzed to determine relationships.</p>
+<p><strong data-start="705" data-end="728">Causal Relationship</strong>: A connection between two variables where a change in one directly causes a change in the other.</p>
+<p><strong data-start="828" data-end="848">Categorical Data</strong>: Data that can be sorted into groups or categories, such as types, labels, or classifications.</p>
+<p><strong data-start="946" data-end="959">Causation</strong>: A relationship in which one variable directly causes a change in another variable.</p>
+<p><strong data-start="1046" data-end="1070">Confounding Variable</strong>: An outside influence that affects both variables being studied, possibly giving a false impression of a relationship.</p>
+<p><strong data-start="1192" data-end="1207">Correlation</strong>: A statistical relationship or pattern between two variables, showing that they tend to vary together.</p>
+<p><strong data-start="1313" data-end="1333">Lurking Variable</strong>: A hidden variable that is not part of the study but affects both observed variables.</p>
+<p><strong data-start="1422" data-end="1440">Numerical Data</strong>: Data that consists of numbers and can be measured or counted.</p>
+<p><strong data-start="1506" data-end="1530">Spurious Correlation</strong>: A false correlation where two variables appear related but are actually linked by coincidence or a third factor.</p>
+<p><strong data-start="1647" data-end="1666">Univariate Data</strong>: Data that involves only one variable and describes a single characteristic or measurement.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p>In today’s lesson, we will explore the important distinction between correlation and causation. This topic is essential for understanding how to interpret data correctly and avoid making false assumptions. We often see data presented in graphs or studies that show two variables moving together—this is known as <em data-start="2146" data-end="2159">correlation</em>. However, just because two things occur at the same time or seem to be related does not mean that one caused the other. This lesson will help you understand when there is simply a correlation and when causation is more likely.</p>
+<h4><span style="color: #843fa1;"><strong data-start="2388" data-end="2417"><br>Understanding Correlation</strong></span></h4>
+<p>Correlation is a pattern or relationship between two variables. Correlations can be positive (both variables increase together), negative (one increases while the other decreases), or show no pattern at all. But remember: correlation only tells us about a pattern — not about a cause.</p>
+<ul style="list-style-type: disc;">
+<li>Example: if students who study more tend to get better grades, we might say there is a positive correlation between study time and test scores.</li>
+</ul>
+<h4><span style="color: #843fa1;"><strong data-start="2852" data-end="2900"><br>Difference Between Correlation and Causation</strong></span></h4>
+<p>Causation means that one variable causes the other to change. This is a much stronger relationship than correlation.</p>
+<ul>
+<li>It requires evidence, often through scientific experiments or logical analysis, that changes in one variable directly result in changes in the other.</li>
+<li>Many times, two variables may seem connected, but there is actually a <em data-start="3240" data-end="3249">lurking</em> or <em data-start="3253" data-end="3275">confounding variable</em> that influences both.</li>
+<li>In these cases, assuming causation would be misleading.</li>
+</ul>
+<h4><span style="color: #843fa1;"><strong data-start="3355" data-end="3390"><br>Why Causation Cannot Be Assumed</strong></span></h4>
+<p>Even when two variables show a strong correlation, we cannot immediately say one caused the other.</p>
+<ul>
+<li>For example, there might be a correlation between eating ice cream and the number of sunburns, but that doesn’t mean ice cream causes sunburn.</li>
+<li>A third factor—like hot summer weather—could be the reason both occur at the same time.</li>
+</ul>
+<p>Recognizing this helps us become smarter consumers of data and avoid drawing false conclusions.</p>
+<h4 data-start="3820" data-end="4198"><span style="color: #843fa1;"><strong data-start="3820" data-end="3854"><br>Analyzing Real-World Scenarios</strong></span></h4>
+<p class="" data-start="3820" data-end="4198">To determine if a correlation exists in a real-world scenario, we need to examine if changes in one variable are associated with consistent changes in another. Then, we evaluate whether there’s enough evidence to believe that one causes the other—or if a third variable is involved. Relationships can usually be sorted into three categories:</p>
+<ul data-start="4199" data-end="4503">
+<li class="" data-start="4199" data-end="4292">
+<p class="" data-start="4201" data-end="4292"><strong data-start="4201" data-end="4223">Possible causation</strong>: There is reasonable evidence that one variable may cause the other, but there is a potential for a third variable.</p>
+</li>
+<li class="" data-start="4293" data-end="4397">
+<p class="" data-start="4295" data-end="4397"><strong data-start="4295" data-end="4317">Unlikely causation</strong>: A third variable is very likely involved, making the correlation coincidental.</p>
+</li>
+<li class="" data-start="4398" data-end="4503">
+<p class="" data-start="4400" data-end="4503"><strong data-start="4400" data-end="4420">Likely causation</strong>: There is strong support or experimental evidence for a cause-and-effect relationship.</p>
+</li>
+</ul>
+<h4><br><br><span style="color: #e67e23;">Example 1</span></h4>
+<p>A study finds that students who sleep more tend to score higher on tests.</p>
+<p>What best describes the relationship between these variables?</p>
+<p><strong data-start="4714" data-end="4720">A.</strong> No correlation; no causation<br data-start="4749" data-end="4752"><strong data-start="4752" data-end="4758">B.</strong> Positive correlation; causation unlikely<br data-start="4799" data-end="4802"><strong data-start="4802" data-end="4808">C.</strong> Positive correlation; possible causation<br data-start="4849" data-end="4852"><strong data-start="4852" data-end="4858">D.</strong> Negative correlation; likely causation</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li data-start="310" data-end="491">This example shows a <strong data-start="350" data-end="374">positive correlation</strong> because as <strong data-start="386" data-end="405">sleep increases</strong>, <strong data-start="407" data-end="436">test scores also increase</strong>. That means both variables move in the same direction.</li>
+<li data-start="493" data-end="998">Now, regarding causation, it is <strong data-start="525" data-end="537">possible</strong> that getting more sleep causes improved test performance. After all, sleep supports brain function, memory, and concentration—all of which are important for doing well on tests.</li>
+<li data-start="493" data-end="998">However, we can’t say for certain that more sleep <strong data-start="766" data-end="785">directly causes</strong> better scores because other factors (like student motivation, study habits, or access to resources) could also play a role.</li>
+<li data-start="493" data-end="998">Still, there is a <strong data-start="928" data-end="963">plausible biological connection</strong> that makes <strong data-start="975" data-end="997">causation possible</strong>.</li>
+</ul>
+<p class="" data-start="493" data-end="998">Answer: Option C</p>
+<h4 data-start="493" data-end="998"><br><br>Example 2</h4>
+<p>A graph shows that as the number of hours playing video games increases, grades decrease.</p>
+<p>What best explains this pattern?</p>
+<p><strong data-start="5064" data-end="5070">A.</strong> Negative correlation; causation is likely<br data-start="5112" data-end="5115"><strong data-start="5115" data-end="5121">B.</strong> Positive correlation; causation is unlikely<br data-start="5165" data-end="5168"><strong data-start="5168" data-end="5174">C.</strong> Negative correlation; causation is unlikely<br data-start="5271" data-end="5274"><strong data-start="5274" data-end="5280">D.</strong> No correlation; no causation</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li data-start="1261" data-end="1431">This scenario shows a <strong data-start="1302" data-end="1326">negative correlation</strong> because <strong data-start="1335" data-end="1367">as video game time increases</strong>, <strong data-start="1369" data-end="1388">grades decrease</strong>—the variables move in opposite directions.</li>
+<li data-start="1261" data-end="1431">While this suggests a pattern, it does <strong style="font-size: 1rem;" data-start="1472" data-end="1530">not necessarily mean that video games cause bad grades</strong><span style="font-size: 1rem;">. </span></li>
+<li data-start="1261" data-end="1431"><span style="font-size: 1rem;">It could be that students who already struggle academically are using video games as an escape, or that </span><strong style="font-size: 1rem;" data-start="1636" data-end="1660">poor time management</strong><span style="font-size: 1rem;">, </span><strong style="font-size: 1rem;" data-start="1662" data-end="1694">lack of parental supervision</strong><span style="font-size: 1rem;">, or </span><strong style="font-size: 1rem;" data-start="1699" data-end="1719">lower motivation</strong><span style="font-size: 1rem;"> are influencing both behaviors. </span></li>
+<li data-start="1261" data-end="1431"><span style="font-size: 1rem;">These are examples of </span><strong style="font-size: 1rem;" data-start="1774" data-end="1810">lurking or confounding variables</strong><span style="font-size: 1rem;"> that might explain the trend. Therefore, although a relationship exists, </span><strong style="font-size: 1rem;" data-start="1884" data-end="1909">causation is unlikely</strong><span style="font-size: 1rem;"> without more controlled evidence.</span></li>
+</ul>
+<p><span style="font-size: 1rem;">Answer: Option C</span></p>
+<h4><span style="font-size: 14pt;"><strong data-start="6431" data-end="6445"><br><br>Conclusion</strong></span></h4>
+<p><span style="font-size: 12pt;">Understanding the difference between correlation and causation is critical when interpreting data. Just because two variables move together doesn’t mean one causes the other. By carefully analyzing patterns and thinking critically about third variables, you can avoid drawing false conclusions and become a more accurate and thoughtful data interpreter. This lesson gives you the tools to evaluate real-world relationships and classify them based on the strength and likelihood of causation.</span></p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p class="" data-start="870" data-end="927">1. What is the difference between correlation and causation?</p>
+<p class="" data-start="870" data-end="927"><span style="font-size: 1rem;">2. Can two variables be correlated without one causing the other? Why?</span></p>
+<p class="" data-start="870" data-end="927"><span style="font-size: 1rem;">3. How can we tell if a relationship is likely causal or just coincidental?</span></p>
+<p class="" data-start="870" data-end="927"><span style="font-size: 1rem;">4. What role do numerical and categorical data types play in understanding relationships?</span></p>
+<p class="" data-start="870" data-end="927"><span style="font-size: 1rem;">5. Why is it important not to assume causation from correlation alone?</span></p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">11.01b &middot; Correlation versus Causation</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>

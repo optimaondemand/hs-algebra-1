@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 9.03b Average Rate of Change from Equations</title>
+<style>html,body{margin:0;padding:0;background:#fff}body{font-family:Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#2d3b45}img{max-width:100%;height:auto}video{max-width:100%;height:auto}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]],processEscapes:true},options:{skipHtmlTags:["script","noscript","style","textarea","pre","code"]}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+</head>
+<body>
+<div style="background: #0E1C42; border-bottom: 5px solid #55C8E8; padding: 22px 34px;">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 10px;">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width: 50px; height: 40px; object-fit: contain;" /></div>
+        <div>
+            <div style="font-size: 28px; color: #ffffff; line-height: 1.2;">Optima Academy Online</div>
+            <div style="font-size: 12px; color: #55c8e8;">An Education Experience Company</div>
+        </div>
+    </div>
+    <div style="font-size: 36px; color: #ffffff; margin-bottom: 6px;">ALGEBRA 1</div>
+</div>
+
+<div style="background: #FFFFFF; border-bottom: 2px solid #D0D9E8; display: flex; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Quarter / Module</div>
+        <div style="font-size: 18px; color: #0e1c42;">Q4 &middot; Module 9</div>
+        <div style="font-size: 13px; color: #666;">Analyzing Functions</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px; border-right: 1px solid #D0D9E8;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Lesson</div>
+        <div style="font-size: 18px; color: #0e1c42;">9.03b</div>
+    </div>
+    <div style="flex: 1; min-width: 150px; padding: 12px 16px;">
+        <div style="font-size: 11px; color: #6b7a99; margin-bottom: 4px;">Module Theme</div>
+        <div style="font-size: 16px; color: #0e1c42;">Analyzing Functions</div>
+    </div>
+</div>
+
+<div style="padding: 24px 34px;">
+
+<div style="background: #EEF1F8; border-left: 5px solid #0E1C42; border-radius: 7px; padding: 18px 22px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #0e1c42; margin-bottom: 8px;">9.03b</div>
+    <div style="font-size: 22px; color: #0e1c42; margin-bottom: 6px;">Average Rate of Change from Equations</div>
+    <div style="font-size: 15px; color: #666;">Lesson</div>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128218; VOCABULARY</div>
+    <p class="" data-start="89" data-end="224"><strong data-start="89" data-end="115">Average rate of change</strong>: The change in the value of a function's output divided by the change in the input over a specific interval.</p>
+<p class="" data-start="89" data-end="224"><strong data-start="226" data-end="238">Function</strong>: A relationship where each input has exactly one output.</p>
+<p class="" data-start="89" data-end="224"><strong data-start="297" data-end="306">Input</strong>: The value substituted into a function, often represented by \(x\).</p>
+<p class="" data-start="376" data-end="485"><strong data-start="376" data-end="388">Interval</strong>: A set of numbers between two endpoints, often describing the domain of inputs being considered.</p>
+<p class="" data-start="376" data-end="485"><strong data-start="487" data-end="497">Output</strong>: The result or value produced by a function after substituting an input, often represented by \(f(x)\) or \(y\).</p>
+<p class="" data-start="376" data-end="485"><strong data-start="612" data-end="621">Slope</strong>: A measure of the steepness of a line, found by dividing the change in \(y\) by the change in \(x\) between two points.</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#128161; EXPLORING THE MATH</div>
+    <p>In today’s lesson, we will explore how to calculate the average rate of change when you are given the <strong data-start="302" data-end="314">equation</strong> of a nonlinear function and a specific interval. Unlike linear functions, where the rate of change remains constant, nonlinear functions have changing rates depending on which interval you are looking at. The average rate of change gives us a snapshot of how quickly the function's output is changing over the interval we are studying. By the end of this lesson, you will know how to substitute values into a function, find the corresponding outputs, and use them to calculate the average rate of change. We will also practice interpreting the meaning of the average rate of change in real-world contexts.</p>
+<h4 data-start="927" data-end="986"><span style="color: #843fa1;"><strong><br>How to Find the Average Rate of Change from an Equation</strong></span></h4>
+<p class="" data-start="988" data-end="1046">When given a function \(f(x)\) and an interval \([a,b]\):</p>
+<ol data-start="1048" data-end="1185">
+<li class="" data-start="1048" data-end="1106">
+<p class="" data-start="1051" data-end="1106">Find the output at the start of the interval, \(f(a)\). Substitute the input into the function and evaluate.</p>
+</li>
+<li class="" data-start="1107" data-end="1163">
+<p class="" data-start="1110" data-end="1163">Find the output at the end of the interval, \(f(b)\).</p>
+</li>
+<li class="" data-start="1164" data-end="1185">
+<p class="" data-start="1167" data-end="1185">Apply the formula Average Rate of Change \(=\frac{f(b)-f(a)}{b-a}\).</p>
+</li>
+</ol>
+<h4><span style="color: #e67e23;"><br><br>Example 1</span></h4>
+<p>Find the average rate of change of the function \(f(x)=x^2+2x\) over the interval \([1,4]\).</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>We begin by substituting in the first input of the interval into the function and evaluating it.
+<ul>
+<li>\(f(1)=(1)^2+2(1)\)</li>
+<li>\(f(1)=1+2\)</li>
+<li>\(f(1)=3\)</li>
+</ul>
+</li>
+<li>Next, we substitute in the second input for the end of the interval into the function and evaluate.
+<ul>
+<li>\(f(4)=(4)^2+2(4)\)</li>
+<li>\(f(4)=16+8\)</li>
+<li>\(f(4)=24\)</li>
+</ul>
+</li>
+<li>Now, we can use the average rate of change formula to calculate the average rate of change on the given interval.</li>
+<li>Average Rate of Change \(=\frac{24-3}{4-1}\)
+<ul>
+<li>Average Rate of Change \(=\frac{21}{3}\)</li>
+<li>Average Rate of Change \(=7\)</li>
+</ul>
+</li>
+<li>The average rate of change for the function \(f(x)=x^2+2x\) over the interval \([1,4]\) is \(7\).</li>
+</ul>
+<h4><span style="color: #e67e23;"><br><br>Example 2</span></h4>
+<p>A ball is thrown into the air. Its height \(h(t)\) in meters after \(t\) seconds is given by the function.</p>
+<p>\(h(t)=-5t^2+20t\)</p>
+<p>Find and interpret the average rate of change from \(t=1\) second to \(t=4\) seconds.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>We will begin by substituting the 1 into the function to find the height after 1 second.
+<ul>
+<li>\(h(1)=-5(1)^2+20(1)\)</li>
+<li>\(h(1)=-5(1)+20(1)\)</li>
+<li>\(h(1)=-5+20\)</li>
+<li>\(h(1)=15\)</li>
+</ul>
+</li>
+<li>Next, we will substitute in 4 into the function to find the height after 4 seconds.
+<ul>
+<li>\(h(4)=-5(4)^2+20(4)\)</li>
+<li>\(h(4)=-5(16)+20(4)\)</li>
+<li>\(h(4)=-80+80\)</li>
+<li>\(h(4)=0\)</li>
+</ul>
+</li>
+<li>Now we will use the formula to calculate the average rate of change.</li>
+<li>Average Rate of Change \(=\frac{15-0}{1-4}\)
+<ul>
+<li>Average Rate of Change \(=\frac{15}{-3}\)</li>
+<li>Average Rate of Change \(=-5\)</li>
+</ul>
+</li>
+<li>The ball is falling at a rate of 5 meters per second.</li>
+</ul>
+<h4><span style="color: #e67e23;"><br><br>Example 3</span></h4>
+<p>The distance \(d(t)\) in meters that a car travels while breaking is modeled by the function where \(t\) is the time in seconds after the brakes are applied.</p>
+<p>\(d(t)=2t^2\)</p>
+<p>Find and interpret the average rate of change from \(t=2\) seconds to \(t=5\) seconds.</p>
+<p><span style="color: #e03e2d;"><strong>Solution:</strong></span></p>
+<ul>
+<li>We will begin by substituting the 2 into the function to find the height after 2 seconds.
+<ul>
+<li>\(d(1)=2(2)^2\)</li>
+<li>\(d(1)=2(4)\)</li>
+<li>\(d(1)=8\)</li>
+</ul>
+</li>
+<li>Next, we will substitute in 5 into the function to find the height after 5 seconds.
+<ul>
+<li>\(d(5)=2(5)^2\)</li>
+<li>\(d(5)=2(25)\)</li>
+<li>\(d(5)=50\)</li>
+</ul>
+</li>
+<li>Now we will use the formula to calculate the average rate of change.</li>
+<li>Average Rate of Change \(=\frac{50-8}{5-2}\)
+<ul>
+<li>Average Rate of Change \(=\frac{42}{3}\)</li>
+<li>Average Rate of Change \(=14\)</li>
+</ul>
+</li>
+<li>On average, the car traveled 14 meters per second between 2 and 5 seconds after applying the brakes.</li>
+</ul>
+<h4 data-start="3120" data-end="3134"><br><br>Conclusion</h4>
+<p class="" data-start="3136" data-end="3801">Today we learned how to find the average rate of change when given an equation of a nonlinear function and an interval. By substituting the endpoints of the interval into the function and using the formula for average rate of change, we can calculate how quickly the function's output is changing. In real-world problems, interpreting this average rate helps us understand important information, such as how fast an object is moving or how far it is traveling. Remember, the average rate of change summarizes what happens <strong data-start="3658" data-end="3666">over</strong> the entire interval and doesn't describe every moment individually, especially for nonlinear functions where the actual rate may vary!</p>
+</div>
+
+<div style="background: #FFFFFF; border-top: 3px solid #C7922C; border: 1px solid #D0D9E8; border-radius: 8px; padding: 20px 24px; margin-bottom: 20px;">
+    <div style="font-size: 11px; color: #c7922c; margin-bottom: 14px;">&#10067; ESSENTIAL QUESTIONS</div>
+    <p>1. Why is understanding the average rate of change important in analyzing real-world situations?</p>
+<p>2. How is the average rate of change calculated for a function given by an equation over a specified interval?</p>
+<p>3. How can the average rate of change help in understanding real-world phenomena represented by mathematical equations?</p>
+</div>
+
+</div>
+
+<div style="background: #0E1C42; border-top: 3px solid #55C8E8; padding: 18px 34px; text-align: center;">
+    <div style="font-size: 18px; color: #ffffff; margin-bottom: 6px;"><span style="color: #55c8e8;">Optima Academy Online</span> &middot; ALGEBRA 1 &middot; Quarter 4 &middot; Student Lesson Page</div>
+    <div style="font-size: 13px; color: rgba(255,255,255,0.65); margin-bottom: 4px;">9.03b &middot; Average Rate of Change from Equations</div>
+    <div style="font-size: 12px; color: rgba(255,255,255,0.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</body>
+</html>
